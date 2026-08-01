@@ -6,7 +6,7 @@ subtitle: Vice President of Research and Development | Biomedical Engineer
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Idan_prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Ann Arbor, MI</p>
