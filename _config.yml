@@ -121,6 +121,21 @@ google_site_verification: # your google-site-verification ID (Google Search Cons
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
+# Social
+# -----------------------------------------------------------------------------
+email: idanstei@gmail.com
+linkedin_username: idanstei
+github_username: "idanstei"
+scholar_userid: "sosl-VsAAAAJ"
+orcid_id: "0000-0002-1592-8026"
+
+# Empty variables to prevent default icons from rendering:
+twitter_username: ""
+mastodon_username: ""
+research_gate_profile: ""
+rss_icon: false
+
+# -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
