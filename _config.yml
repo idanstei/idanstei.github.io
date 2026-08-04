@@ -128,11 +128,13 @@ linkedin_username: idanstei
 github_username: "idanstei"
 scholar_userid: "sosl-VsAAAAJ"
 orcid_id: "0000-0002-1592-8026"
+research_gate_profile: "Idan-Steinberg"
 
-# Empty variables to prevent default icons from rendering:
+# Explicitly empty variables to FORCE the theme to hide default icons:
+wechat_qr: ""
+work_url: ""
 twitter_username: ""
 mastodon_username: ""
-research_gate_profile: ""
 rss_icon: false
 
 # -----------------------------------------------------------------------------
