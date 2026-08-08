@@ -11,7 +11,7 @@ cv:
       username: idanstei
 
   address:
-    street: ""
+    # street: ""
     city: Ann Arbor
     region: MI
     postalCode: ""
