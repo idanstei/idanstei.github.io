@@ -1,189 +1,181 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Idan Steinberg, Ph.D
+  label: Vice President for Research and Development
+  email: idanstei@gmail.com
+  location: Ann Arbor, MI
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: "Dynamic, highly innovative engineer with expertise in medical devices, medical imaging, and signal processing. Over 25 years of hands-on experience in research positions at internationally renowned institutions. Proven ability to design and execute studies to elucidate the efficacy of complex products."
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: idanstei
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street: ""
+    city: Ann Arbor
+    region: MI
+    postalCode: ""
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Univ. of Michigan, Ross School of Business
+        location: Ann Arbor, MI
+        area: Management
+        studyType: Accelerated Management Development Certificate Program
+        start_date: 2023
+        end_date: 2023
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Analytical, value-driven, and people-driven thinking skill development, emphasizing strategic decision-making and digital innovation."
+          - "Identifying key value drivers and opportunities for value creation, developing a strategic go-to-market plan, and understanding market dynamics to identify sources of competitive advantage."
+          - "Negotiation and team building skills."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Tel Aviv Univ., EE & BME dept.
+        location: Tel Aviv, Israel
+        area: Biomedical Engineering
+        studyType: Ph.D.
+        end_date: 2016
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Focus on acoustic instrumentation development, Biophotonics, and fiber optics."
+          - "Leveraged ultrasound to assess bone strength and photoacoustics to detect early molecular signs of osteoporosis."
+          - "Named one of nine Sir Charles Clore Scholars."
+
+      - institution: Tel Aviv Univ., BME dept.
+        location: Tel Aviv, Israel
+        area: Biomedical Engineering & Management Track, Minor in Business Administration
+        studyType: M.Sc.
+        end_date: 2010
+        highlights:
+          - "Focus on statistical optics and laser-tissue interactions (Monte-Carlo simulations, diffusion approximation)."
+          - "Developed a device to generate acoustic waves in tumors labeled with magnetic nanoparticles."
+          - "Selected for direct-track to M.Sc. program as top 5% of B.Sc. students - full scholarships."
+
+      - institution: Tel Aviv Univ., BME dept.
+        location: Tel Aviv, Israel
+        area: Biomedical Engineering
+        studyType: B.Sc.
+        end_date: 2008
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Endra Life Sciences Inc.
+        position: Senior Director of Research and Development / Vice President for Research and Development
+        location: Ann Arbor, MI
+        start_date: 2024-12
+        end_date: Present
+        summary: "Operational and execution responsibility for all company products."
         highlights:
-          - Relativity
-          - Description 2.
+          - "Strategic Technical Leadership - TRL 1: proposed a generation system design that reduced console size by 5x, probe weight by 5x, addressed a critical performance metric, and reduced cost by 33%."
+          - "Regulatory & Clinical Support - Design, approval, and successful execution of multisite feasibility studies and R&R studies."
+          - "Spearheaded cross-functional initiatives to advance regulatory submission strategies, aligning research milestones with commercial objectives, and enabling efficient technology transfer to clinical and engineering teams."
+          - "Product Development & Engineering: Led the technical team in a successful compilation of TRL 0 to TRL 5 in one year and on a lean budget, renovating the company's product and addressing critical performance issues."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Endra Life Sciences Inc.
+        position: Applied Science Team Leader
+        location: Ann Arbor, MI
+        start_date: 2021-09
+        end_date: 2024-11
+        summary: "System-level ownership over the research and development of a Thermo-acoustic device for non-invasive liver fat assessment."
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Set target performance, minimum performance, and risk management at the system level."
+          - "Team & Resource Management - Unified cross-disciplinary teams (Ann Arbor main office, London, ON offsite team, and Starfish medical engineering contractor) and allocated resources efficiently."
+          - "Key contributor to over 20 IP disclosures and technical resources to support commercial, engineering, and regulatory teams."
+          - "Directed on-site experimental validation activities across 24 months, managing biweekly device performance tests and ensuring compliance with ISO 13485 standards."
+          - "Initiated and maintained an academic collaboration program and brought on board 3 key laboratories from top universities across the globe (UIUC, UCL, and Technion)."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Vortex Medical Imaging
+        position: Principal Researcher
+        location: Sunnyvale, CA
+        start_date: 2020-11
+        end_date: 2021-09
+        summary: "Guiding the development of the flagship product - a 2D low-frequency transducer array for full waveform volumetric abdominal imaging."
+        highlights:
+          - "Infrastructure and acoustic lab bring-up in less than 1 quarter: phantom fabrication, acoustic measurements and simulations, coordination with multiple subcontractors, and software platform development."
+          - "In charge of determining specifications, developing new QA test procedures for the product, and employee training."
+          - "Working both onsite (Sunnyvale) and at a collaborator ultrasound laboratory at Stanford to efficiently utilize resources."
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: Stanford Univ. School of Medicine, Radiology Dept.
+        position: Team Leader
+        location: Palo Alto, CA
+        start_date: 2018-01
+        end_date: 2021-05
+        summary: "Guided cross-functional teams of 10-20 multidisciplinary researchers and engineers in optics and acoustics groups across 40 projects over 5 years."
+        highlights:
+          - "Provided both guidance and prioritization as an experienced professional, and assisted the PI in decision-making and early identification of successes and failures."
+          - "Personally led 10 and actively participated in 40 concurrent projects spanning Raman preclinical imaging, targeted photoacoustic contrast agents, nanoscale acoustic contrast agents, RF-acoustic imaging, cancer imaging, and clinical trials."
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Stanford Univ. School of Medicine, Radiology Dept.
+        position: Postdoctoral Fellow
+        location: Palo Alto, CA
+        start_date: 2016-06
+        end_date: 2021-05
+        summary: "Developed a highly complex photoacoustic and ultrasound prostate imaging system from concept to feasibility clinical trial over the course of 5 years and a budget of $1M."
+        highlights:
+          - "Engineered custom signal processing algorithms and software workflows using MATLAB, Python, and CUDA for real-time photoacoustic data analysis to accelerate imaging rate by 10-fold."
+          - "Conceptualized, created the initial design, identified and managed subcontractors in prototyping new hardware."
+          - "Designing and executing preclinical, 2 ex vivo studies, and a feasibility clinical trial for photoacoustic imaging applications for early cancer detection."
+          - "Project evaluated and selected as one of 5 awardees for funding by Philips Healthcare for high translational and commercial potential."
+          - "Promoted to Team Leader after exceeding expectations through the development of creative solutions."
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - company: International Society for Optics and Photonics at Tel Aviv Univ
+        position: Founder and first President
+        location: Tel Aviv, Israel
+      
+      - company: President's Peres program
+        position: Participant
+        location: Tel Aviv, Israel
+        summary: "Program for nurturing Israel's future scientists and inventors at Tel Aviv Univ."
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Sir Peter Michael Foundation Fellow
+        awarder: Sir Peter Michael Foundation
+        summary: "Named one of several national researchers selected as a Sir Peter Michael Foundation Fellow for excellence in clinical translation of prostate cancer photoacoustic imaging at Stanford University."
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Philips Healthcare Fellows
+        awarder: Philips Healthcare
+        summary: "Awarded at Stanford University, Department of Radiology, for developing a dual Ultrasound/Photoacoustic system."
+
+      - title: SPARK Program Fellow
+        awarder: SPARK Program
+        summary: "Chosen as a SPARK Program Fellow as one of 14 Stanford teams for clinical translation of photoacoustic imaging of bacterial infections."
+
+      - title: Sir Charles Clore Scholars
+        awarder: Clore Foundation
+        summary: "Highly competitive program supporting the top 10 applicants nationwide."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: Photoacoustic clinical imaging
+        publisher: Photoacoustics 14, 77-98
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: Superiorized Photo-Acoustic Non-Negative Reconstruction (SPANNER) for Clinical Photoacoustic Imaging
+        publisher: IEEE Transactions on Medical Imaging
+        releaseDate: 2021
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: First-in-human study of bone pathologies using a low-cost and compact dual-wavelength photoacoustic system
+        publisher: IEEE Journal of Selected Topics in Quantum Electronics
+        releaseDate: 2018
+
+      - title: A new method for tumor detection using induced acoustic waves from tagged magnetic nanoparticles
+        publisher: Nanomedicine: Nanotechnology, Biology, and Medicine.
+        releaseDate: 2012
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Expertise
+        icon: fa-solid fa-star
+        keywords: "Data Analysis & Visualization, Biomedical Sensors, Biomedical Signal Processing, Human Physiology, Software Development, Multidisciplinary Collaboration"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "C++, Matlab, CUDA, Python, LabVIEW, Java, Delphi"
 
-      - name: English
-        summary: "Fluent"
+      - name: CAD and Simulation Software
+        icon: fa-solid fa-laptop-code
+        keywords: "Rhino 3D, ZeeMax, Comsol, Photoshop, 3D Studio Max, Adobe Premiere, Monte Carlo simulations, k-Wave, Field II acoustic simulations"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Hardware Experience
+        icon: fa-solid fa-microchip
+        keywords: "Free space and fiber-optics, RF, Acoustic lab instrumentation, Control, automation, remote data acquisition (DAQ), Building prototype acoustic and optical devices, Testing and calibration"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Personal
+        icon: fa-solid fa-user
+        keywords: "Frontal and active teaching, Mentoring and team leadership, Ability to learn, adapt, and excel"
