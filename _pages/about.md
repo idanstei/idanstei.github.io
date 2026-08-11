@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Vice President of Research and Development | Biomedical Engineer
+subtitle: Vice President of Research & Development | Biomedical Engineering Ph.D.
 
 profile:
   align: right
@@ -23,11 +23,15 @@ latest_posts:
   enabled: false # Disabled since you are not running a blog
 ---
 
-I am a dynamic, highly innovative engineer with over 25 years of hands-on experience in research positions at internationally renowned institutions. My core expertise spans medical devices, medical imaging, and signal processing, and I excel at identifying product opportunities for emerging technologies. 
+I am a Biomedical Engineering Ph.D. with over 25 years of experience leading multidisciplinary teams to develop and clinically validate medical diagnostic devices. My career has progressed from deep technical expertise in biomedical imaging, algorithms, and instrumentation to executive R&D leadership.
 
-Currently, I serve as the Vice President for Research and Development at Endra Life Sciences Inc. in Ann Arbor, Michigan, where I have operational and execution responsibility for all company products. My recent work includes proposing a system design that reduced console size by 5x, decreased probe weight by 5x, and reduced overall costs by one-third. 
+Currently, I serve as the **Vice President of Research & Development at Endra Life Sciences Inc.** in Ann Arbor, Michigan. In this role, I lead engineering efforts and direct multi-site clinical trials to advance complex diagnostic technologies from early-stage research through TRL 5 development. Recently, my team and I successfully executed system-level architecture redesigns that reduced manufacturing costs by 33% and the overall device footprint by 5x while significantly improving clinical efficacy.
 
-My academic foundation includes a Ph.D. in Biomedical Engineering from Tel Aviv University, where I focused on acoustic instrumentation development, biophotonics, and fiber optics. I later spent five years at Stanford University's School of Medicine as a Postdoctoral Fellow and Team Leader, developing complex photoacoustic and ultrasound prostate imaging systems. Recently, I completed an Accelerated Management Development Certificate from the University of Michigan's Ross School of Business to further refine my skills in strategic decision-making and digital innovation.
+Prior to my current role, I established the US acoustic laboratory for computational ultrasound startup **Vortex Medical Imaging** as a Principal Researcher and managed a multidisciplinary development team as a Postdoctoral Fellow at the **Stanford University School of Medicine**. I earned my Ph.D. in Biomedical Engineering from **Tel Aviv University**, where I developed novel photoacoustic methods for the early detection of osteoporosis and led clinical translational studies.
 
-### Technical Fabrication & Workflow Automation
-Beyond clinical hardware development, I maintain a dedicated workspace for technical DIY fabrication. I actively operate a V1 Engineering Primo MPCNC machine and a Creality CR laser engraver, frequently utilizing custom G-code generation and software routing. To optimize operational tracking and financial metrics, I also regularly develop custom automation tools using Excel VBA and Google Sheets Apps Script.
+My core technical expertise spans across:
+* **Imaging & Biomedical Systems:** Acoustic and photoacoustic imaging, biomedical sensors, signal processing, and medical device clinical validation.
+* **Software & Modeling:** Python, MATLAB, C++, CUDA, k-Wave, Field II, COMSOL, and ZEMAX.
+* **Hardware & Instrumentation:** RF and acoustic systems, optical and fiber-optic systems
+
+* Feel free to reach out via email or connect with me on LinkedIn.
