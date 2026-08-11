@@ -5,9 +5,9 @@
 # cv_pdf: /assets/pdf/Idan_Steinberg_Resume.pdf # path to your CV PDF file (commented out to remove the default 'CV' icon)
 
 resume: 
-  icon: fas fa-file-alt 
+  logo: https://img.icons8.com/ios-filled/100/ffffff/document.png # The plugin requires a logo file/URL with an extension
   title: Resume
-  url: /cv/ # Or use "/assets/pdf/Idan_Steinberg_Resume.pdf" to link directly to the file
+  url: /cv/ 
   
 email: idanstei@gmail.com # your email address
 #inspirehep_id: ""
