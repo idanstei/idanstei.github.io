@@ -35,8 +35,8 @@ My technical background spans biomedical imaging, ultrasound and acoustic system
 I am particularly interested in challenging R&D problems that require deep technical expertise, multidisciplinary collaboration, and disciplined product development to turn promising technology into useful clinical products.
 
 My core technical expertise spans across:
-* **Imaging & Biomedical Systems:** Acoustic and photoacoustic imaging, biomedical sensors, signal processing, and medical device clinical validation.
-* **Software & Modeling:** Python, MATLAB, C++, CUDA, k-Wave, Field II, COMSOL, and ZEMAX.
-* **Hardware & Instrumentation:** RF and acoustic systems, optical and fiber-optic systems
+* **Medical Imaging:** Ultrasound • Photoacoustic Imaging • Acoustic Systems • Biomedical Instrumentation
+* **Engineering & Technology:** Signal Processing • Algorithms • Computational Modeling • Software • Hardware
+* **R&D Leadership:** Multidisciplinary Teams • Product Development • Clinical Translation • Technical Strategy
 
 * Feel free to reach out via email or connect with me on LinkedIn.
