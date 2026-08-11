@@ -22,12 +22,17 @@ announcements:
 latest_posts:
   enabled: false # Disabled since you are not running a blog
 ---
+I am an R&D executive and biomedical engineer with more than 25 years of experience developing medical technologies at the intersection of engineering, science, and clinical practice.
 
-I am a Biomedical Engineering Ph.D. with over 25 years of experience leading multidisciplinary teams to develop and clinically validate medical diagnostic devices. My career has progressed from deep technical expertise in biomedical imaging, algorithms, and instrumentation to executive R&D leadership.
+Throughout my career, I have worked across the full technology-development cycle—from early-stage research and system architecture to prototyping, clinical validation, and product development. I have led multidisciplinary teams spanning engineering, computer science, biology, and clinical research, and have worked extensively with technologies involving medical imaging, ultrasound and acoustics, signal processing, algorithms, and biomedical instrumentation.
 
-Currently, I serve as the **Vice President of Research & Development at Endra Life Sciences Inc.** in Ann Arbor, Michigan. In this role, I lead engineering efforts and direct multi-site clinical trials to advance complex diagnostic technologies from early-stage research through TRL 5 development. Recently, my team and I successfully executed system-level architecture redesigns that reduced manufacturing costs by 33% and the overall device footprint by 5x while significantly improving clinical efficacy.
+As Vice President of Research & Development at Endra Life Sciences, I led the development of a non-invasive liver imaging platform from early research through TRL 5 development. This included building and leading multidisciplinary R&D teams, directing system-level architecture, supporting clinical studies, and translating technical challenges into practical product decisions. The work included redesigns that reduced projected manufacturing costs by 33% and the overall system footprint by 5×, as well as clinical development that improved the correlation between imaging measurements and clinical efficacy from 4% to 89%.
 
-Prior to my current role, I established the US acoustic laboratory for computational ultrasound startup **Vortex Medical Imaging** as a Principal Researcher and managed a multidisciplinary development team as a Postdoctoral Fellow at the **Stanford University School of Medicine**. I earned my Ph.D. in Biomedical Engineering from **Tel Aviv University**, where I developed novel photoacoustic methods for the early detection of osteoporosis and led clinical translational studies.
+Previously, at Stanford University, I led a multidisciplinary team developing photoacoustic imaging technology, managing a $1M development budget and teams of 10–20 engineers, computer scientists, biologists, and clinical researchers. The technology advanced toward first-in-human clinical evaluation and benefited from collaborations with industry and clinical partners.
+
+My technical background spans biomedical imaging, ultrasound and acoustic systems, signal processing, computational modeling, software, and hardware. I hold a Ph.D. and M.Sc. in Biomedical Engineering from Tel Aviv University, with research spanning Biomedical and Electrical Engineering, and completed the Accelerated Management Development Certificate Program at the University of Michigan's Ross School of Business.
+
+I am particularly interested in challenging R&D problems that require deep technical expertise, multidisciplinary collaboration, and disciplined product development to turn promising technology into useful clinical products.
 
 My core technical expertise spans across:
 * **Imaging & Biomedical Systems:** Acoustic and photoacoustic imaging, biomedical sensors, signal processing, and medical device clinical validation.
