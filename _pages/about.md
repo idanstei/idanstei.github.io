@@ -51,7 +51,7 @@ I believe thermoacoustic imaging offers a particularly promising path toward tha
 
 Thermoacoustics combines electromagnetic excitation with acoustic detection. Compared with photoacoustic imaging, it sacrifices some of the rich intrinsic optical contrast but offers important advantages: greater penetration depth, no requirement for high-powered lasers or associated laser-safety infrastructure, and, importantly, a path toward **quantitative imaging**.
 
-At RF frequencies, the electromagnetic excitation field can be modeled and compensated for much more readily than light propagation deep within heterogeneous tissue. This creates a path toward recovering quantitative information about tissue properties rather than relying solely on qualitative image contrast.
+At RF frequencies, the electromagnetic excitation field can be modeled and compensated for much more readily than light propagation deep within heterogeneous tissue. This makes it possible to recover quantitative information about tissue properties rather than relying solely on qualitative image contrast.
 
 My work at ENDRA strengthened my conviction that this can be done. We developed and clinically evaluated thermoacoustic technology designed to make quantitative measurements in human tissue, and that experience convinced me that there is much more to explore.
 
