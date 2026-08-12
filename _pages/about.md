@@ -65,6 +65,8 @@ Build a practical system. Make it reliable and quantitative. Put it in the hands
 
 My long-term goal is to help establish thermoacoustic imaging as a practical, quantitative molecular-imaging platform—and ultimately to help make molecular imaging far more accessible.
 
+[Read more about why I believe in quantitative thermoacoustic imaging →](/thermoacoustic-imaging/)
+
 ## How I approach R&D
 
 I’ve spent much of my career at the intersection of physics, engineering, and medicine, and that has shaped how I lead R&D.
