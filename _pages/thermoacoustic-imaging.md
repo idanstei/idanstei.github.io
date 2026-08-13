@@ -23,16 +23,16 @@ The idea is to combine electromagnetic contrast with acoustic detection, creatin
   <img src="/assets/img/Thermoaocustic_imaging.png"
        alt="Thermoacoustic imaging process diagram"
        style="max-width: 100%; height: auto;">
-  <p><em>Overview of thermoacoustic imaging: RF excitation, absorption, thermoelastic expansion, acoustic detection, and image reconstruction.</em></p>
+  <p><em>Overview of thermoacoustic imaging: RF excitation, absorption, thermoelastic response, acoustic detection, and image reconstruction.</em></p>
 </div>
 
-Thermoacoustic imaging uses short pulses of radiofrequency (RF) energy to excite tissue. Absorption of electromagnetic energy produces a very small, rapid temperature rise, resulting in thermoelastic expansion and the generation of acoustic waves.
+Thermoacoustic imaging uses short pulses of radiofrequency (RF) energy to excite tissue. Absorption of electromagnetic energy produces a very small, rapid temperature rise, resulting in thermoelastic expansion and the generation of ultra-broadband acoustic transients.
 
-Those waves can be detected using ultrasound transducers and reconstructed into an image.
+These acoustic transients can be detected using ultrasound transducers and reconstructed into an image.
 
 The basic process is:
 
-**RF excitation → electromagnetic absorption → thermoelastic expansion → acoustic wave → ultrasound detection → image**
+**RF excitation → electromagnetic absorption → thermoelastic expansion → acoustic transient → ultrasound detection → image**
 
 Unlike conventional ultrasound, where contrast primarily arises from differences in acoustic properties and reflections at tissue boundaries, thermoacoustic contrast originates from the interaction between electromagnetic energy and tissue.
 
@@ -42,7 +42,7 @@ This provides access to information that conventional ultrasound cannot directly
 
 ## Thermoacoustic and photoacoustic imaging
 
-Thermoacoustic and photoacoustic imaging are closely related. Both rely on electromagnetic absorption followed by thermoelastic generation of acoustic waves.
+Thermoacoustic and photoacoustic imaging are closely related. Both rely on electromagnetic absorption followed by a rapid thermoelastic response that generates detectable acoustic transients.
 
 The primary difference is the source of excitation.
 
@@ -66,7 +66,7 @@ For a technology intended ultimately to become widely accessible, that practical
 
 ### A path toward quantification
 
-Perhaps the most interesting distinction, however, is the potential for quantitative imaging.
+Another important distinction is the potential for quantitative imaging.
 
 ---
 
@@ -81,8 +81,6 @@ With optical excitation, light propagation through deep, heterogeneous tissue is
 At RF frequencies, electromagnetic wavelengths in tissue are on the order of centimeters rather than the sub-micron wavelengths of light. The electromagnetic field can therefore be modeled and compensated for much more readily.
 
 **This creates a practical path toward recovering quantitative information about tissue properties rather than relying solely on qualitative image contrast.**
-
-That distinction is important.
 
 A qualitative image can show that two regions of tissue are different. A quantitative measurement can potentially characterize the magnitude of that difference, compare it between examinations, and track it over time.
 
@@ -104,19 +102,12 @@ For me, the significance of that work extends beyond liver fat. It demonstrated 
   <img src="/assets/img/Diagnossi_paper_Figure_4.png"
        alt="Clinical evaluation of Thermoacoustic Fat Fraction (TAFF) against MRI-PDFF: Bland–Altman agreement, error distribution, and Deming regression."
        style="max-width: 100%; height: auto;">
-  <p><em>Overview of thermoacoustic imaging: RF excitation, absorption, thermoelastic expansion, acoustic detection, and image reconstruction.</em></p>
+  <p><em>Clinical evaluation of Thermoacoustic Fat Fraction (TAFF) against MRI-PDFF: Bland–Altman agreement, error distribution, and Deming regression across 40 subjects.</em></p>
 </div>
 
+Subsequent company-reported multi-site evaluation expanded the dataset to 64 subjects across sites in the United States and Canada. The same underlying estimation algorithm was used at an independent external site without site-specific tuning, and the combined cohort maintained a correlation of **r = 0.90** with MRI-PDFF. These later results were reported in an ENDRA white paper and have not yet undergone peer review.
 
 ---
-
-## From tissue composition to molecular imaging
-
-Thermoacoustic imaging is sometimes considered to have relatively limited biological contrast compared with optical photoacoustics.
-
-I believe that view overlooks an important distinction between what the technology can do today and what a mature thermoacoustic imaging platform could eventually enable.
-
-Intrinsic RF absorption can already provide information related to tissue composition. But thermoacoustic contrast is not limited to the natural electromagnetic properties of tissue.
 
 ## A personal connection to this work
 
@@ -132,35 +123,27 @@ For me, this creates a direct connection between two sides of the problem: devel
 
 ## Beyond endogenous contrast
 
-Thermoacoustic imaging already provides endogenous contrast based on differences in tissue electromagnetic properties. At ENDRA, we exploited that contrast to quantify liver fat, where differences in water, electrolyte, and lipid composition produce measurable differences in RF absorption.
+Compared with optical photoacoustics, thermoacoustic imaging has less rich intrinsic biological contrast. But that does not mean its contrast is limited to the natural electromagnetic properties of tissue.
 
-But the potential does not stop with intrinsic tissue contrast.
+At ENDRA, we exploited endogenous contrast to quantify liver fat, where differences in water, electrolyte, and lipid composition produce measurable differences in RF absorption.
 
-Earlier work on thermoacoustic contrast agents investigated materials including gadolinium compounds, iron oxide particles, carbon nanotubes, and electrolytes. Those studies showed an important result: simply choosing a material that sounds like a conventional imaging contrast agent is not enough. What matters is how the agent changes electromagnetic absorption.
+Earlier work on exogenous thermoacoustic contrast agents investigated materials including gadolinium compounds, iron oxide particles, carbon nanotubes, and electrolytes. Those studies showed an important result: simply choosing a material that works as a contrast agent in another modality is not enough. What matters is how the agent changes electromagnetic absorption.
 
 In particular, work by Ogunlade and Beard showed that ionic conductivity can provide strong thermoacoustic contrast and identified simple electrolytes such as saline as particularly promising.
 
-That idea was subsequently taken much further.
-
-Chen and colleagues encapsulated hypertonic saline within biocompatible nanodroplets and functionalized the particles for molecular targeting. Using GRPR-targeted nanodroplets, they demonstrated **in-vivo RF-acoustic molecular imaging of prostate cancer**.
+Chen and colleagues later encapsulated hypertonic saline within biocompatible nanodroplets and functionalized the particles for molecular targeting. Using GRPR-targeted nanodroplets, they demonstrated **in-vivo RF-acoustic molecular imaging of prostate cancer**.
 
 This is important to me because it demonstrates that molecular specificity is not merely a hypothetical future extension of thermoacoustic imaging. It has already been demonstrated experimentally.
 
-The question is how to translate that possibility into a practical imaging platform.
+**Quantitative endogenous tissue characterization combined with exogenous molecular contrast on the same imaging platform is a particularly compelling long-term possibility.**
 
-**Quantitative endogenous tissue characterization combined with exogenous molecular contrast on the same imaging platform.**
-
-But there is a practical chicken-and-egg problem.
-
-There is little incentive to invest heavily in new thermoacoustic-specific molecular probes when researchers and clinicians do not yet have broad access to thermoacoustic imaging systems.
-
-That is why I believe the sequence matters.
+But there is a practical chicken-and-egg problem: there is limited incentive to invest heavily in thermoacoustic-specific molecular probes when researchers and clinicians do not yet have broad access to practical thermoacoustic imaging systems.
 
 ---
 
 ## First, we need the imaging platform.
 
-Developing molecular probes is difficult and expensive. There is limited incentive to build an ecosystem of thermoacoustic-specific contrast agents if researchers and clinicians do not have access to practical thermoacoustic imaging systems.
+Developing molecular probes is difficult and expensive. Without a practical imaging platform, it is difficult to build an ecosystem of thermoacoustic-specific contrast agents, applications, and biological tools.
 
 So the first step is the instrument.
 
@@ -180,16 +163,17 @@ Thermoacoustic imaging has been studied for decades, and many of its underlying 
 
 The challenge now is translation.
 
-A practical quantitative thermoacoustic platform requires progress across multiple disciplines:
+A practical thermoacoustic platform requires progress across multiple disciplines:
 
 - RF excitation and electromagnetic field control
 - acoustic detection and transducer design
-- image reconstruction and signal processing
+- reconstruction, signal processing, and quantitative calibration
 - electromagnetic modeling and field compensation
-- system calibration and quantitative measurement
-- hardware and system architecture
-- clinical application development and validation
-- manufacturability and product development
+- system architecture and integration
+- verification and validation
+- clinical application development and clinical validation
+- manufacturability, cost reduction, and product development
+- regulatory strategy, clinical workflow, and usability
 - and, eventually, targeted contrast agents and molecular probes
 
 These are not independent problems. They have to work together as a system.
@@ -208,7 +192,7 @@ Ultrasound succeeded not only because of the information it provides, but becaus
 
 Molecular imaging provides a fundamentally different kind of information, but today it generally lacks that level of accessibility.
 
-I believe quantitative thermoacoustic imaging offers a compelling path toward narrowing that gap.
+I believe thermoacoustic imaging offers a compelling path toward narrowing that gap.
 
 The first step is the device.
 
@@ -227,15 +211,15 @@ If you are working on thermoacoustic imaging, molecular imaging, RF or acoustic 
 ## Selected references
 
 1. Cho JH, Bull CM, Thornton M, Gao J, Rubin JM, Steinberg I.  
-   **Thermoacoustic Ultrasound Assessment of Liver Steatosis—A Novel Approach for MASLD Diagnosis.**  
+   [**Thermoacoustic Ultrasound Assessment of Liver Steatosis—A Novel Approach for MASLD Diagnosis.**](https://doi.org/10.3390/diagnostics16050804)  
    *Diagnostics*. 2026;16:804.
 
 2. Chen Y-S, Zhao Y, Beinat C, et al.  
-   **Ultra-High-Frequency-Radio-Frequency-Acoustic Molecular Imaging with Saline Nanodroplets in Living Subjects.**  
+   [**Ultra-high-frequency radio-frequency acoustic molecular imaging with saline nanodroplets in living subjects.**](https://doi.org/10.1038/s41565-021-00869-5)  
    *Nature Nanotechnology*. 2021;16:717–724.
 
 3. Ogunlade O, Beard P.  
-   **Exogenous contrast agents for thermoacoustic imaging: An investigation into the underlying sources of contrast.**  
+   [**Exogenous contrast agents for thermoacoustic imaging: An investigation into the underlying sources of contrast.**](https://doi.org/10.1118/1.4903277)  
    *Medical Physics*. 2015;42(1):170–181.
 
 4. ENDRA Life Sciences.  

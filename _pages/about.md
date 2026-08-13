@@ -35,7 +35,7 @@ Despite that progression, I’ve always stayed close to the technical problems. 
 
 One problem has become particularly important to me: **making molecular imaging much more widely accessible.**
 
-Many diseases are characterized by biochemical and physiological changes before significant anatomical changes become apparent. Those changes can tell us what is happening in tissue—not simply what the tissue looks like, and provide valuable information for studying disease, diagnosing it, and monitoring its progression or response to treatment.
+Many diseases are characterized by biochemical and physiological changes before significant anatomical changes become apparent. Those changes can tell us what is happening in tissue—not simply what the tissue looks like—and can provide valuable information for studying disease, diagnosing it, and monitoring its progression or response to treatment.
 
 Molecular imaging provides access to this kind of information, but many of today’s technologies require expensive equipment, specialized facilities, or infrastructure, limiting where and how frequently they can be used.
 
@@ -65,7 +65,7 @@ Build a practical system. Make it reliable and quantitative. Put it in the hands
 
 My long-term goal is to help establish thermoacoustic imaging as a practical, quantitative molecular-imaging platform—and ultimately to help make molecular imaging far more accessible.
 
-[Read more about why I believe in quantitative thermoacoustic imaging →](/thermoacoustic-imaging/)
+[Read more about why I believe in thermoacoustic imaging →](/thermoacoustic-imaging/)
 
 ## How I approach R&D
 

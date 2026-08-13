@@ -1,11 +1,12 @@
 {
   "basics": {
-    "name": "Idan Steinberg, Ph.D",
-    "label": "Vice President for Research and Development",
+    "name": "Idan Steinberg, Ph.D.",
+    "label": "Vice President of Research & Development",
     "image": "",
     "email": "idanstei@gmail.com",
     "phone": "(650) 469-6437",
-    "summary": "Dynamic, highly innovative engineer with expertise in medical devices, medical imaging, and signal processing. Over 25 years of hands-on experience in research positions at internationally renowned institutions. Proven ability to design and execute studies to elucidate the efficacy of complex products.",
+    "url": "https://idanstei.com",
+    "summary": "Vice President of Research & Development and Biomedical Engineering Ph.D. with 25+ years of experience leading multidisciplinary teams to develop and clinically validate medical diagnostic devices. Progressed from deep technical expertise in biomedical imaging, algorithms, and instrumentation to executive R&D leadership. Advanced technologies from early-stage research through TRL 5 development, including multi-site clinical trials and system-level architecture redesigns that reduced manufacturing costs by 33% and device footprint by 5x.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,37 +19,98 @@
         "network": "LinkedIn",
         "username": "idanstei",
         "url": "https://linkedin.com/in/idanstei"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "",
+        "url": "https://scholar.google.com/citations?user=sosl-VsAAAAJ"
       }
     ]
   },
+  "skills": [
+    {
+      "name": "Leadership",
+      "level": "",
+      "icon": "fa-solid fa-people-group",
+      "keywords": [
+        "R&D organization leadership",
+        "Multidisciplinary product development",
+        "Technical strategy",
+        "Team development",
+        "Clinical translation",
+        "Design verification and validation"
+      ]
+    },
+    {
+      "name": "Imaging & Biomedical Systems",
+      "level": "",
+      "icon": "fa-solid fa-wave-square",
+      "keywords": [
+        "Thermoacoustic imaging",
+        "Photoacoustic imaging",
+        "Ultrasound imaging",
+        "Biomedical sensors",
+        "Signal processing",
+        "Medical imaging",
+        "Clinical validation"
+      ]
+    },
+    {
+      "name": "Software & Modeling",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "MATLAB",
+        "C++",
+        "CUDA",
+        "k-Wave",
+        "Field II",
+        "COMSOL",
+        "Ansys HFSS",
+        "ZEMAX"
+      ]
+    },
+    {
+      "name": "Hardware & Instrumentation",
+      "level": "",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "RF and acoustic systems",
+        "Optical and fiber-optic systems",
+        "Prototype development",
+        "Testing and calibration",
+        "Data acquisition (DAQ)"
+      ]
+    }
+  ],
   "work": [
     {
-      "name": "Endra Life Sciences Inc.",
+      "name": "ENDRA Life Sciences Inc.",
       "position": "Senior Director of Research and Development / Vice President for Research and Development",
       "location": "Ann Arbor, MI",
       "startDate": "2024-12-01",
       "endDate": "Present",
-      "summary": "Operational and execution responsibility for all company products.",
+      "summary": "Promoted to VP R&D following successful execution of the company's clinical strategy; restructured the R&D organization and redirected development priorities, contributing to $5M in subsequent fundraising.",
       "highlights": [
-        "Strategic Technical Leadership - TRL 1: proposed a generation system design that reduced console size by 5x, probe weight by 5x, addressed a critical performance metric, and reduced cost by 33%.",
-        "Regulatory & Clinical Support - Design, approval, and successful execution of multisite feasibility studies and R&R studies.",
-        "Spearheaded cross-functional initiatives to advance regulatory submission strategies, aligning research milestones with commercial objectives, and enabling efficient technology transfer to clinical and engineering teams.",
-        "Product Development & Engineering: Led the technical team in a successful compilation of TRL 0 to TRL 5 in one year and on a lean budget, renovating the company's product and addressing critical performance issues."
+        "Led an 8-month engineering effort to identify and resolve the causes of clinical performance failure in the company's thermoacoustic diagnostic device, taking the system from TRL 0 to TRL 5. Used k-Wave, Ansys HFSS, and internally developed tools to model the acoustic system and identify signal aliasing caused by rib interference, with interference signals hundreds of times larger than the clinical targets.",
+        "Redesigned the hardware by optimizing RF antenna spacing relative to the acoustic sensor, resolving the interference without requiring a full system redesign.",
+        "Improved device clinical efficacy, measured by correlation with MRI-PDFF, from 4% to 89%. Directed multi-site clinical trials involving 70+ patients and supported peer-reviewed publications.",
+        "Led an interdisciplinary team to design a third-generation combined ultrasound and thermoacoustic device to address usability issues. The design reduced projected manufacturing costs by 33%, the probe footprint by half, and the overall system footprint by 5x."
       ]
     },
     {
-      "name": "Endra Life Sciences Inc.",
+      "name": "ENDRA Life Sciences Inc.",
       "position": "Applied Science Team Leader",
       "location": "Ann Arbor, MI",
       "startDate": "2021-09-01",
-      "endDate": "2024-11-01",
-      "summary": "System-level ownership over the research and development of a Thermo-acoustic device for non-invasive liver fat assessment.",
+      "endDate": "2024-11-30",
+      "summary": "Assumed technical ownership for the first- and second-generation device pipeline and independently analyzed clinical data that identified major discrepancies in baseline efficacy, including a 4% correlation with gold-standard measurements.",
       "highlights": [
-        "Set target performance, minimum performance, and risk management at the system level.",
-        "Team & Resource Management - Unified cross-disciplinary teams (Ann Arbor main office, London, ON offsite team, and Starfish medical engineering contractor) and allocated resources efficiently.",
-        "Key contributor to over 20 IP disclosures and technical resources to support commercial, engineering, and regulatory teams.",
-        "Directed on-site experimental validation activities across 24 months, managing biweekly device performance tests and ensuring compliance with ISO 13485 standards.",
-        "Initiated and maintained an academic collaboration program and brought on board 3 key laboratories from top universities across the globe (UIUC, UCL, and Technion)."
+        "Presented the clinical and technical findings directly to the Board, resulting in a 50% reduction in operating costs and a change in the company's technical direction.",
+        "Led the redesign of the acoustic sensor, increasing baseline sensitivity by 6 dB and reducing array-wide sensitivity variation 3-fold.",
+        "Managed system specifications, QA procedures, and clinical deployment training, while coordinating technical work between company leadership and external engineering contractors.",
+        "Major contributor to clinical trial design and execution, medical-device validation, ISO 13485, and design verification and validation."
       ]
     },
     {
@@ -56,115 +118,120 @@
       "position": "Principal Researcher",
       "location": "Sunnyvale, CA",
       "startDate": "2020-11-01",
-      "endDate": "2021-09-01",
-      "summary": "Guiding the development of the flagship product - a 2D low-frequency transducer array for full waveform volumetric abdominal imaging.",
+      "endDate": "2021-09-30",
+      "summary": "First US employee hire of an early-stage computational ultrasound startup. Joined a computer-science-focused team as the primary ultrasound imaging expert. Established the company's US acoustic laboratory, including equipment procurement, custom 3D-printed components, and core testing infrastructure.",
       "highlights": [
-        "Infrastructure and acoustic lab bring-up in less than 1 quarter: phantom fabrication, acoustic measurements and simulations, coordination with multiple subcontractors, and software platform development.",
-        "In charge of determining specifications, developing new QA test procedures for the product, and employee training.",
-        "Working both onsite (Sunnyvale) and at a collaborator ultrasound laboratory at Stanford to efficiently utilize resources."
+        "Defined the technical specifications and characterization methods for a 3D ultrasound probe based on Full Matrix Capture and real-time full waveform inversion for imaging tissue density and speed of sound.",
+        "Worked with external vendors to transition the probe from design to physical prototype, including defining QA requirements and performance targets for the software and computer science team."
       ]
     },
     {
-      "name": "Stanford Univ. School of Medicine, Radiology Dept.",
-      "position": "Team Leader",
-      "location": "Palo Alto, CA",
-      "startDate": "2018-01-01",
-      "endDate": "2021-05-01",
-      "summary": "Guided cross-functional teams of 10-20 multidisciplinary researchers and engineers in optics and acoustics groups across 40 projects over 5 years.",
-      "highlights": [
-        "Provided both guidance and prioritization as an experienced professional, and assisted the PI in decision-making and early identification of successes and failures.",
-        "Personally led 10 and actively participated in 40 concurrent projects spanning Raman preclinical imaging, targeted photoacoustic contrast agents, nanoscale acoustic contrast agents, RF-acoustic imaging, cancer imaging, and clinical trials."
-      ]
-    },
-    {
-      "name": "Stanford Univ. School of Medicine, Radiology Dept.",
-      "position": "Postdoctoral Fellow",
+      "name": "Stanford University School of Medicine, Department of Radiology",
+      "position": "Team Leader & Postdoctoral Fellow",
       "location": "Palo Alto, CA",
       "startDate": "2016-06-01",
-      "endDate": "2021-05-01",
-      "summary": "Developed a highly complex photoacoustic and ultrasound prostate imaging system from concept to feasibility clinical trial over the course of 5 years and a budget of $1M.",
+      "endDate": "2021-05-31",
+      "summary": "Managed a $1M development budget and a multidisciplinary team of 10–20 engineers, computer scientists, biologists, and clinical researchers. Led development of optical and acoustic technologies from laboratory prototypes toward clinical applications.",
       "highlights": [
-        "Engineered custom signal processing algorithms and software workflows using MATLAB, Python, and CUDA for real-time photoacoustic data analysis to accelerate imaging rate by 10-fold.",
-        "Conceptualized, created the initial design, identified and managed subcontractors in prototyping new hardware.",
-        "Designing and executing preclinical, 2 ex vivo studies, and a feasibility clinical trial for photoacoustic imaging applications for early cancer detection.",
-        "Project evaluated and selected as one of 5 awardees for funding by Philips Healthcare for high translational and commercial potential.",
-        "Promoted to Team Leader after exceeding expectations through the development of creative solutions."
+        "Led development of a combined photoacoustic and ultrasound prostate imaging system from initial design through prototype development and clinical testing. Authored initial designs and managed external subcontractors responsible for custom ultrasound arrays, multi-port optical waveguides, and specialized cart housings.",
+        "Implemented real-time signal-processing algorithms and software workflows using MATLAB, Python, and CUDA, increasing photoacoustic imaging data-processing speed by 10x.",
+        "Designed and executed a validation program covering preclinical testing, ex vivo studies, and a first-in-human feasibility clinical trial for early cancer detection. The project was selected as one of five Stanford projects to receive funding from Philips Healthcare based on its potential for clinical and commercial translation."
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "International Society for Optics and Photonics at Tel Aviv Univ",
-      "position": "Founder and first President",
+      "name": "Tel Aviv University, School of Engineering",
+      "position": "Graduate Researcher – Ph.D. in Biomedical Engineering",
       "location": "Tel Aviv, Israel",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2011-01-01",
+      "endDate": "2016-03-31",
+      "summary": "Developed novel photoacoustic methods and prototype devices for early detection of osteoporosis, advancing technologies from bench-top concepts to first-in-human clinical studies.",
+      "highlights": [
+        "Designed experimental systems and studies spanning acoustic instrumentation, biophotonics, statistical optics, and laser-tissue interactions."
+      ]
+    },
+    {
+      "name": "OptiCul Diagnostics Ltd.",
+      "position": "Algorithms Engineer",
+      "location": "Tel Aviv, Israel",
+      "startDate": "2010-05-01",
+      "endDate": "2011-01-31",
+      "summary": "Established advanced signal-processing methods and an SVM classifier for a rapid optical bacteria-detection device, evaluating performance against clinical-trial data.",
+      "highlights": [
+        "Performed and analyzed clinical trials. Used the results to bridge the gap to commercialization, contributing to the company's early business plan."
+      ]
+    },
+    {
+      "name": "Tel Aviv University, School of Engineering",
+      "position": "Graduate Researcher – M.Sc., Biomedical Engineering & Management Track",
+      "location": "Tel Aviv, Israel",
+      "startDate": "2008-09-01",
+      "endDate": "2010-05-31",
+      "summary": "Developed a novel magneto-motive ultrasound method for early detection of cancer, from concept through modeling and benchtop prototype.",
       "highlights": []
     },
     {
-      "organization": "President's Peres program",
-      "position": "Participant",
-      "location": "Tel Aviv, Israel",
-      "startDate": "",
-      "endDate": "",
-      "summary": "Program for nurturing Israel's future scientists and inventors at Tel Aviv Univ.",
+      "name": "Weizmann Institute of Science",
+      "position": "Algorithms & Image Processing Engineer",
+      "location": "Rehovot, Israel",
+      "startDate": "2007-07-01",
+      "endDate": "2008-09-30",
+      "summary": "Designed and implemented a real-time multi-threaded video and sensor analysis system capable of capturing and processing rapidly changing, unpredictable whisker movement to control a live feedback loop.",
+      "highlights": []
+    },
+    {
+      "name": "Israel Defense Forces",
+      "position": "Operations Research Officer",
+      "location": "Israel",
+      "startDate": "2000-08-01",
+      "endDate": "2004-10-31",
+      "summary": "Applied quantitative analysis and operational modeling to support planning and decision-making. Selected for the Lotem academic and technical military program.",
       "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "Univ. of Michigan, Ross School of Business",
+      "institution": "University of Michigan, Ross School of Business",
       "location": "Ann Arbor, MI",
-      "url": "",
-      "area": "Management",
+      "url": "https://michiganross.umich.edu/programs/executive-education/accelerated-management-development-certificate",
+      "area": "",
       "studyType": "Accelerated Management Development Certificate Program",
       "startDate": "2023-01-01",
       "endDate": "2023-12-31",
       "score": "",
       "courses": [],
-      "highlights": [
-        "Analytical, value-driven, and people-driven thinking skill development, emphasizing strategic decision-making and digital innovation.",
-        "Identifying key value drivers and opportunities for value creation, developing a strategic go-to-market plan, and understanding market dynamics.",
-        "Negotiation and team building skills."
-      ]
+      "highlights": []
     },
     {
-      "institution": "Tel Aviv Univ., EE & BME dept.",
+      "institution": "Tel Aviv University",
       "location": "Tel Aviv, Israel",
-      "area": "Biomedical Engineering",
-      "studyType": "Ph.D.",
-      "startDate": "",
-      "endDate": "2016-12-31",
+      "url": "",
+      "area": "Interdisciplinary research spanning Biomedical and Electrical Engineering",
+      "studyType": "Ph.D., Biomedical Engineering",
+      "startDate": "2011-01-01",
+      "endDate": "2016-03-31",
       "score": "",
       "courses": [],
-      "highlights": [
-        "Focus on acoustic instrumentation development, Biophotonics, and fiber optics.",
-        "Leveraged ultrasound to assess bone strength and photoacoustics to detect early molecular signs of osteoporosis.",
-        "Named one of nine Sir Charles Clore Scholars."
-      ]
+      "highlights": []
     },
     {
-      "institution": "Tel Aviv Univ., BME dept.",
+      "institution": "Tel Aviv University",
       "location": "Tel Aviv, Israel",
-      "area": "Biomedical Engineering & Management Track, Minor in Business Administration",
-      "studyType": "M.Sc.",
-      "startDate": "",
-      "endDate": "2010-12-31",
+      "url": "",
+      "area": "Minor in Business Administration",
+      "studyType": "M.Sc., Biomedical Engineering & Management Track",
+      "startDate": "2008-09-01",
+      "endDate": "2010-05-31",
       "score": "",
       "courses": [],
-      "highlights": [
-        "Focus on statistical optics and laser-tissue interactions (Monte-Carlo simulations, diffusion approximation).",
-        "Developed a device to generate acoustic waves in tumors labeled with magnetic nanoparticles.",
-        "Selected for direct-track to M.Sc. program as top 5% of B.Sc. students - full scholarships."
-      ]
+      "highlights": []
     },
     {
-      "institution": "Tel Aviv Univ., BME dept.",
+      "institution": "Tel Aviv University",
       "location": "Tel Aviv, Israel",
-      "area": "Biomedical Engineering",
-      "studyType": "B.Sc.",
-      "startDate": "",
+      "url": "",
+      "area": "",
+      "studyType": "B.Sc., Biomedical Engineering",
+      "startDate": "2004-01-01",
       "endDate": "2008-12-31",
       "score": "",
       "courses": [],
@@ -173,129 +240,62 @@
   ],
   "awards": [
     {
+      "title": "SPARK Program Fellow",
+      "date": "",
+      "awarder": "Stanford University",
+      "summary": "Selected as one of 14 Stanford teams for industry translation of a photoacoustic marker for imaging bacterial infections."
+    },
+    {
+      "title": "Philips Healthcare Fellow",
+      "date": "",
+      "awarder": "Stanford University Department of Radiology",
+      "summary": "Awarded for development of a dual ultrasound/photoacoustic imaging system."
+    },
+    {
       "title": "Sir Peter Michael Foundation Fellow",
       "date": "",
       "awarder": "Sir Peter Michael Foundation",
-      "summary": "Named one of several national researchers selected as a Sir Peter Michael Foundation Fellow for excellence in clinical translation of prostate cancer photoacoustic imaging at Stanford University."
+      "summary": "Selected as a national researcher for excellence in clinical translation of prostate cancer photoacoustic imaging at Stanford University."
     },
     {
-      "title": "Philips Healthcare Fellows",
-      "date": "",
-      "awarder": "Philips Healthcare",
-      "summary": "Awarded at Stanford University, Department of Radiology, for developing a dual Ultrasound/Photoacoustic system."
-    },
-    {
-      "title": "SPARK Program Fellow",
-      "date": "",
-      "awarder": "SPARK Program",
-      "summary": "Chosen as a SPARK Program Fellow as one of 14 Stanford teams for clinical translation of photoacoustic imaging of bacterial infections."
-    },
-    {
-      "title": "Sir Charles Clore Scholars",
+      "title": "Sir Charles Clore Scholar",
       "date": "",
       "awarder": "Clore Foundation",
-      "summary": "Highly competitive program supporting the top 10 applicants nationwide."
+      "summary": "Selected as one of nine scholars nationwide."
     }
   ],
-  "certificates": [],
   "publications": [
     {
-      "name": "Photoacoustic clinical imaging",
-      "publisher": "Photoacoustics 14, 77-98",
-      "releaseDate": "",
-      "url": "",
+      "name": "Thermoacoustic Ultrasound Assessment of Liver Steatosis—A Novel Approach for MASLD Diagnosis",
+      "publisher": "Diagnostics",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.3390/diagnostics16050804",
       "summary": ""
     },
     {
       "name": "Superiorized Photo-Acoustic Non-Negative Reconstruction (SPANNER) for Clinical Photoacoustic Imaging",
       "publisher": "IEEE Transactions on Medical Imaging",
-      "releaseDate": "2021-01-01",
+      "releaseDate": "2021",
       "url": "",
       "summary": ""
     },
     {
-      "name": "First-in-human study of bone pathologies using a low-cost and compact dual-wavelength photoacoustic system",
+      "name": "Photoacoustic Clinical Imaging",
+      "publisher": "Photoacoustics",
+      "releaseDate": "2019",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "First-in-Human Study of Bone Pathologies Using a Low-Cost and Compact Dual-Wavelength Photoacoustic System",
       "publisher": "IEEE Journal of Selected Topics in Quantum Electronics",
-      "releaseDate": "2018-01-01",
-      "url": "",
-      "summary": ""
-    },
-    {
-      "name": "A new method for tumor detection using induced acoustic waves from tagged magnetic nanoparticles",
-      "publisher": "Nanomedicine: Nanotechnology, Biology, and Medicine.",
-      "releaseDate": "2012-01-01",
+      "releaseDate": "2018",
       "url": "",
       "summary": ""
     }
   ],
-  "skills": [
-    {
-      "name": "Expertise",
-      "level": "",
-      "icon": "fa-solid fa-star",
-      "keywords": [
-        "Data Analysis & Visualization",
-        "Biomedical Sensors",
-        "Biomedical Signal Processing",
-        "Human Physiology",
-        "Software Development",
-        "Multidisciplinary Collaboration"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "",
-      "icon": "fa-solid fa-code",
-      "keywords": [
-        "C++",
-        "Matlab",
-        "CUDA",
-        "Python",
-        "LabVIEW",
-        "Java",
-        "Delphi"
-      ]
-    },
-    {
-      "name": "CAD and Simulation Software",
-      "level": "",
-      "icon": "fa-solid fa-laptop-code",
-      "keywords": [
-        "Rhino 3D",
-        "ZeeMax",
-        "Comsol",
-        "Photoshop",
-        "3D Studio Max",
-        "Adobe Premiere",
-        "Monte Carlo simulations",
-        "k-Wave",
-        "Field II acoustic simulations"
-      ]
-    },
-    {
-      "name": "Hardware Experience",
-      "level": "",
-      "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "Free space and fiber-optics",
-        "RF",
-        "Acoustic lab instrumentation",
-        "Control, automation, and remote data acquisition (DAQ)",
-        "Building prototype acoustic and optical devices",
-        "Testing and calibration"
-      ]
-    },
-    {
-      "name": "Personal",
-      "level": "",
-      "icon": "fa-solid fa-user",
-      "keywords": [
-        "Frontal and active teaching",
-        "Mentoring and team leadership",
-        "Ability to learn, adapt, and excel"
-      ]
-    }
-  ],
+  "volunteer": [],
+  "certificates": [],
   "languages": [],
   "interests": [],
   "references": [],
