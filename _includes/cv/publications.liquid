@@ -1,0 +1,34 @@
+{% comment %}
+  Site-specific selected-publications renderer for JSONResume entries.
+  Displays the actual paper title rather than only the venue.
+{% endcomment %}
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+          {% capture pub_date %}{% if entry.releaseDate %}{{ entry.releaseDate }}{% elsif entry.date %}{{ entry.date }}{% endif %}{% endcapture %}
+          {% assign pub_date = pub_date | strip %}
+          {% if pub_date != '' %}
+            {% assign pub_year = pub_date | split: '-' | first %}
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ pub_year }}</span>
+          {% endif %}
+        </div>
+
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+          {% if entry.name %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              {% if entry.url %}<a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.name }}</a>{% else %}{{ entry.name }}{% endif %}
+            </h6>
+          {% endif %}
+          {% if entry.publisher %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.publisher }}</h6>
+          {% endif %}
+          {% if entry.summary %}
+            <div class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

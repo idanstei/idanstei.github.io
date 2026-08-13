@@ -1,0 +1,125 @@
+{% comment %}
+  Site-specific JSONResume renderer for idanstei.com.
+
+  This intentionally shadows the al_folio_cv plugin's cv/render.liquid include.
+  It is scoped to this site's JSONResume page and keeps the plugin's component
+  includes for Experience, Skills, and Awards.
+
+  Purpose:
+  - remove the large Contact Information card
+  - put Technical & Leadership Expertise directly after Professional Summary
+  - render work only (do not merge volunteer/service entries into Experience)
+  - keep the executive-first section order
+  - use site-specific Education and Selected Publications renderers
+{% endcomment %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ page.title }}
+      {% if page.cv_pdf %}
+        <a
+          {% if page.cv_pdf contains '://' %}
+            href="{{ page.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv_pdf | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+          aria-label="Download PDF resume"
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+        </a>
+      {% endif %}
+    </h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+      {% if page.cv_format == 'jsonresume' and site.data.resume %}
+
+        {% comment %} Professional Summary {% endcomment %}
+        {% if site.data.resume.basics.summary %}
+          <a class="anchor" id="professional-summary"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Professional Summary</h3>
+            <p>{{ site.data.resume.basics.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          </div>
+        {% endif %}
+
+        {% comment %} Technical & Leadership Expertise {% endcomment %}
+        {% if site.data.resume.skills.size > 0 %}
+          <a class="anchor" id="technical-leadership-expertise"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Technical &amp; Leadership Expertise</h3>
+            <div>
+              {% assign entries = site.data.resume.skills %}
+              {% include cv/skills.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        {% comment %} Experience: intentionally use work only, not volunteer {% endcomment %}
+        {% assign empty_array = '' | split: ',' %}
+        {% assign work = site.data.resume.work | default: empty_array | al_cv_sort_by_date %}
+        {% if work.size > 0 %}
+          <a class="anchor" id="experience"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Experience</h3>
+            <div>
+              {% assign entries = work %}
+              {% include cv/experience.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        {% comment %} Education {% endcomment %}
+        {% if site.data.resume.education.size > 0 %}
+          <a class="anchor" id="education"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Education</h3>
+            <div>
+              {% assign entries = site.data.resume.education | al_cv_sort_by_date %}
+              {% include cv/education.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        {% comment %} Awards {% endcomment %}
+        {% if site.data.resume.awards.size > 0 %}
+          <a class="anchor" id="awards"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Awards &amp; Honors</h3>
+            <div>
+              {% assign entries = site.data.resume.awards %}
+              {% include cv/awards.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        {% comment %} Selected Publications {% endcomment %}
+        {% if site.data.resume.publications.size > 0 %}
+          <a class="anchor" id="selected-publications"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Selected Publications</h3>
+            <p class="font-weight-light mb-3">
+              <a href="https://scholar.google.com/citations?user=sosl-VsAAAAJ" target="_blank" rel="noopener noreferrer">Full list on Google Scholar</a><br>
+              Over 50 peer-reviewed publications and more than 2,000 citations
+            </p>
+            <div>
+              {% assign entries = site.data.resume.publications | al_cv_sort_by_date %}
+              {% include cv/publications.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+      {% else %}
+        <p>This site-specific CV renderer expects <code>cv_format: jsonresume</code> and <code>assets/json/resume.json</code>.</p>
+      {% endif %}
+    </div>
+  </article>
+</div>
