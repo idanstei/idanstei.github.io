@@ -8,6 +8,7 @@ Replace these repository files:
 - `_includes/cv/publications.liquid`
 
 Why this patch:
+
 - the uploaded `resume.json` already contains the corrected education wording,
   the 2026-led publication set, and the cleaned early-career titles;
 - the previous renderer passed Education and Publications through
