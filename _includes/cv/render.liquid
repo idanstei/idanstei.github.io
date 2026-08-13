@@ -1,16 +1,11 @@
 {% comment %}
   Site-specific JSONResume renderer for idanstei.com.
 
-  This intentionally shadows the al_folio_cv plugin's cv/render.liquid include.
-  It is scoped to this site's JSONResume page and keeps the plugin's component
-  includes for Experience, Skills, and Awards.
-
-  Purpose:
-  - remove the large Contact Information card
-  - put Technical & Leadership Expertise directly after Professional Summary
-  - render work only (do not merge volunteer/service entries into Experience)
-  - keep the executive-first section order
-  - use site-specific Education and Selected Publications renderers
+  Important:
+  - Education and Publications are already ordered in resume.json.
+  - Do NOT pass those two sections through al_cv_sort_by_date. The plugin date
+    normalizer can mangle year-only dates (e.g. 2023 -> "- 2023") and can omit
+    year-only publication records.
 {% endcomment %}
 
 <div class="post">
@@ -42,7 +37,6 @@
     <div class="cv">
       {% if page.cv_format == 'jsonresume' and site.data.resume %}
 
-        {% comment %} Professional Summary {% endcomment %}
         {% if site.data.resume.basics.summary %}
           <a class="anchor" id="professional-summary"></a>
           <div class="card mt-3 p-3">
@@ -51,7 +45,6 @@
           </div>
         {% endif %}
 
-        {% comment %} Technical & Leadership Expertise {% endcomment %}
         {% if site.data.resume.skills.size > 0 %}
           <a class="anchor" id="technical-leadership-expertise"></a>
           <div class="card mt-3 p-3">
@@ -63,7 +56,6 @@
           </div>
         {% endif %}
 
-        {% comment %} Experience: intentionally use work only, not volunteer {% endcomment %}
         {% assign empty_array = '' | split: ',' %}
         {% assign work = site.data.resume.work | default: empty_array | al_cv_sort_by_date %}
         {% if work.size > 0 %}
@@ -77,19 +69,17 @@
           </div>
         {% endif %}
 
-        {% comment %} Education {% endcomment %}
         {% if site.data.resume.education.size > 0 %}
           <a class="anchor" id="education"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Education</h3>
             <div>
-              {% assign entries = site.data.resume.education | al_cv_sort_by_date %}
+              {% assign entries = site.data.resume.education %}
               {% include cv/education.liquid %}
             </div>
           </div>
         {% endif %}
 
-        {% comment %} Awards {% endcomment %}
         {% if site.data.resume.awards.size > 0 %}
           <a class="anchor" id="awards"></a>
           <div class="card mt-3 p-3">
@@ -101,7 +91,6 @@
           </div>
         {% endif %}
 
-        {% comment %} Selected Publications {% endcomment %}
         {% if site.data.resume.publications.size > 0 %}
           <a class="anchor" id="selected-publications"></a>
           <div class="card mt-3 p-3">
@@ -111,7 +100,7 @@
               Over 50 peer-reviewed publications and more than 2,000 citations
             </p>
             <div>
-              {% assign entries = site.data.resume.publications | al_cv_sort_by_date %}
+              {% assign entries = site.data.resume.publications %}
               {% include cv/publications.liquid %}
             </div>
           </div>
