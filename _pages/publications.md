@@ -7,6 +7,18 @@ nav: true
 nav_order: 4
 ---
 
+<style>
+.publications ol.bibliography {
+  list-style-type: decimal;
+  padding-left: 1.75rem;
+}
+
+.publications ol.bibliography > li {
+  display: list-item;
+  margin-bottom: 0.85rem;
+  padding-left: 0.25rem;
+}
+</style>
 <!-- _pages/publications.md -->
 
 Selected work is highlighted first. The remaining bibliography is organized by publication type and shown in reverse chronological order.
