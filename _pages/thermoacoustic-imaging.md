@@ -122,9 +122,13 @@ Intrinsic RF absorption can already provide information related to tissue compos
 
 Thermoacoustic imaging is not limited to the intrinsic electromagnetic properties of tissue.
 
-Early studies investigated a range of exogenous agents and showed that ionic conductivity can provide particularly strong thermoacoustic contrast. This work identified electrolytes such as saline as promising candidates for increasing RF absorption.
+The possibility of extending thermoacoustic imaging beyond intrinsic tissue contrast is something I have been interested in for many years.
 
-More recent research has taken that concept substantially further. Chen and colleagues developed targetable nanodroplets containing hypertonic saline and demonstrated in-vivo UHF RF-acoustic molecular imaging of prostate cancer. GRPR-targeted nanodroplets produced substantially stronger signals in GRPR-positive tumors than untargeted controls, demonstrating molecular targeting specificity.
+During my time at Stanford Radiology in Sam Gambhir’s group, as a group leader, I advised Dr. Yun-Sheng Chen, whose work later demonstrated targeted UHF RF-acoustic molecular imaging using saline nanodroplets. The study showed molecularly specific targeting of GRPR-positive prostate tumors in vivo, providing direct evidence that RF-acoustic imaging can support targeted molecular contrast.
+
+Later, while serving as Applied Science Leader at ENDRA Life Sciences, I provided both Yun-Sheng Chen and Olumide “Ollie” Ogunlade access to TAEUS systems to support continued research in thermoacoustic imaging and contrast-agent development.
+
+That history is one reason I see the contrast-agent opportunity as more than a theoretical extension of thermoacoustics. The underlying scientific feasibility has already been demonstrated. The challenge now is to build a practical imaging platform that gives researchers a reason to develop the next generation of molecular probes around it.
 
 This creates an intriguing long-term possibility:
 
