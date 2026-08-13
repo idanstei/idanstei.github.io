@@ -92,21 +92,23 @@ That turns an imaging contrast mechanism into a potential quantitative biomarker
 
 ---
 
-## Demonstrating quantitative thermoacoustic imaging
+## Demonstrating quantitative thermoacoustic imaging in humans
 
-My work at ENDRA Life Sciences focused heavily on this problem.
+At ENDRA Life Sciences, my focus shifted from exploring what thermoacoustics could potentially measure to a different challenge: could we turn it into a practical quantitative clinical device?
 
-We developed thermoacoustic technology to quantitatively measure liver fat by exploiting differences in RF absorption associated with tissue composition.
+We developed the TAEUS Liver system to estimate liver fat fraction using differences in RF absorption associated with tissue composition. Rather than relying on an acoustic surrogate for fat, the thermoacoustic measurement derives contrast from differences in the electromagnetic properties of lean and fatty tissue.
 
-The objective was not simply to produce a thermoacoustic image of the liver. It was to recover a quantitative estimate of liver fat fraction that could be compared with an established reference measurement.
+In a prospective clinical feasibility study of 40 subjects, Thermoacoustic Fat Fraction (TAFF) showed a correlation of **r = 0.89** with MRI-PDFF, with a mean absolute error of **3.04 percentage points**. Nearly **90% of subjects were within 5 percentage points** of the MRI-PDFF reference measurement.
 
-In clinical evaluation, thermoacoustic estimates of liver fat showed strong agreement with MRI-derived proton density fat fraction (MRI-PDFF).
+For me, the significance of that work extends beyond liver fat. It demonstrated that thermoacoustics could move beyond producing an interesting image and toward providing a repeatable, quantitative measurement in human subjects.
 
-This work reinforced my conviction that quantitative thermoacoustic imaging is not merely a theoretical possibility.
+<div style="text-align: center;">
+  <img src="/assets/img/Diagnossi_paper_Figure_4.png"
+       alt="TClinical comparison of Thermoacoustic Fat Fraction (TAFF) with MRI-PDFF. The study evaluated agreement, error distribution, and Deming regression across 40 subjects spanning a broad range of liver fat fractions"
+       style="max-width: 100%; height: auto;">
+  <p><em>Overview of thermoacoustic imaging: RF excitation, absorption, thermoelastic expansion, acoustic detection, and image reconstruction.</em></p>
+</div>
 
-It can be approached as a system-level engineering problem involving electromagnetic modeling, acoustic detection, reconstruction, calibration, instrumentation, and clinical validation.
-
-And solving that problem opens up possibilities beyond liver fat.
 
 ---
 
@@ -118,19 +120,35 @@ I believe that view overlooks an important distinction between what the technolo
 
 Intrinsic RF absorption can already provide information related to tissue composition. But thermoacoustic contrast is not limited to the natural electromagnetic properties of tissue.
 
+## A personal connection to this work
+
+My interest in thermoacoustic molecular imaging is also connected to an earlier part of my career.
+
+At Stanford Radiology, I worked under Dr. Sanjiv Sam Gambhir, whose group was deeply involved in developing new approaches to molecular imaging. As a group leader, I advised Yun-Sheng Chen, who later led work on targeted radiofrequency-acoustic molecular imaging using saline nanodroplets.
+
+That research eventually demonstrated **targeted RF-acoustic molecular imaging in living subjects**. GRPR-targeted nanodroplets produced substantially stronger RF-acoustic signals in GRPR-positive prostate tumors than in the comparison groups, demonstrating that molecular targeting could be incorporated into an RF-acoustic imaging approach.
+
+Later, while serving as Applied Science Leader at ENDRA Life Sciences, I provided both Yun-Sheng Chen and Olumide "Ollie" Ogunlade access to TAEUS systems so they could continue their research in thermoacoustic imaging.
+
+For me, this creates a direct connection between two sides of the problem: developing the imaging instrument and exploring the molecular contrast that the instrument could eventually support.
+
 ## Beyond endogenous contrast
 
-Thermoacoustic imaging is not limited to the intrinsic electromagnetic properties of tissue.
+Thermoacoustic imaging already provides endogenous contrast based on differences in tissue electromagnetic properties. At ENDRA, we exploited that contrast to quantify liver fat, where differences in water, electrolyte, and lipid composition produce measurable differences in RF absorption.
 
-The possibility of extending thermoacoustic imaging beyond intrinsic tissue contrast is something I have been interested in for many years.
+But the potential does not stop with intrinsic tissue contrast.
 
-During my time at Stanford Radiology in Sam Gambhir’s group, as a group leader, I advised Dr. Yun-Sheng Chen, whose work later demonstrated targeted UHF RF-acoustic molecular imaging using saline nanodroplets. The study showed molecularly specific targeting of GRPR-positive prostate tumors in vivo, providing direct evidence that RF-acoustic imaging can support targeted molecular contrast.
+Earlier work on thermoacoustic contrast agents investigated materials including gadolinium compounds, iron oxide particles, carbon nanotubes, and electrolytes. Those studies showed an important result: simply choosing a material that sounds like a conventional imaging contrast agent is not enough. What matters is how the agent changes electromagnetic absorption.
 
-Later, while serving as Applied Science Leader at ENDRA Life Sciences, I provided both Yun-Sheng Chen and Olumide “Ollie” Ogunlade access to TAEUS systems to support continued research in thermoacoustic imaging and contrast-agent development.
+In particular, work by Ogunlade and Beard showed that ionic conductivity can provide strong thermoacoustic contrast and identified simple electrolytes such as saline as particularly promising.
 
-That history is one reason I see the contrast-agent opportunity as more than a theoretical extension of thermoacoustics. The underlying scientific feasibility has already been demonstrated. The challenge now is to build a practical imaging platform that gives researchers a reason to develop the next generation of molecular probes around it.
+That idea was subsequently taken much further.
 
-This creates an intriguing long-term possibility:
+Chen and colleagues encapsulated hypertonic saline within biocompatible nanodroplets and functionalized the particles for molecular targeting. Using GRPR-targeted nanodroplets, they demonstrated **in-vivo RF-acoustic molecular imaging of prostate cancer**.
+
+This is important to me because it demonstrates that molecular specificity is not merely a hypothetical future extension of thermoacoustic imaging. It has already been demonstrated experimentally.
+
+The question is how to translate that possibility into a practical imaging platform.
 
 **Quantitative endogenous tissue characterization combined with exogenous molecular contrast on the same imaging platform.**
 
@@ -144,19 +162,19 @@ That is why I believe the sequence matters.
 
 ## First, we need the imaging platform.
 
-Build a practical system based on endogenous contrast.
+This is where I believe the sequence matters.
 
-Make it reliable.
+Developing molecular probes is difficult and expensive. There is limited incentive to build an ecosystem of thermoacoustic-specific contrast agents if researchers and clinicians do not have access to practical thermoacoustic imaging systems.
 
-Make it quantitative.
+So the first step is the instrument.
 
-Put it in the hands of researchers and clinicians.
+Build a practical system. Make it reliable. Make it quantitative. Put it in the hands of researchers and clinicians.
 
-Once the platform exists, researchers have a reason to explore new applications. Clinicians can identify questions the technology might answer. Chemists and molecular-imaging researchers have a reason to develop new contrast agents.
+Once the platform exists, researchers can explore new applications. Clinicians can identify new biological questions it might answer. Chemists and molecular-imaging researchers have a reason to develop new probes and contrast agents around it.
 
-The instrument can become the foundation for an ecosystem rather than the endpoint of a single application.
+The imaging system can become the foundation for an ecosystem rather than the endpoint of a single application.
 
-That is why my immediate interest is not simply in demonstrating another thermoacoustic phenomenon. It is in helping establish thermoacoustic imaging as a usable technology platform.
+**That is the opportunity I want to continue working on.**
 
 ---
 
@@ -209,3 +227,21 @@ The longer-term opportunity is a platform capable of providing quantitative tiss
 If you are working on thermoacoustic imaging, molecular imaging, RF or acoustic imaging, contrast-agent development, or another technology aimed at making advanced medical imaging more accessible, I would be very interested in hearing from you.
 
 [Get in touch](mailto:idanstei@gmail.com)
+
+## Selected references
+
+1. Cho JH, Bull CM, Thornton M, Gao J, Rubin JM, Steinberg I.  
+   **Thermoacoustic Ultrasound Assessment of Liver Steatosis—A Novel Approach for MASLD Diagnosis.**  
+   *Diagnostics*. 2026;16:804.
+
+2. Chen Y-S, Zhao Y, Beinat C, et al.  
+   **Ultra-High-Frequency-Radio-Frequency-Acoustic Molecular Imaging with Saline Nanodroplets in Living Subjects.**  
+   *Nature Nanotechnology*. 2021;16:717–724.
+
+3. Ogunlade O, Beard P.  
+   **Exogenous contrast agents for thermoacoustic imaging: An investigation into the underlying sources of contrast.**  
+   *Medical Physics*. 2015;42(1):170–181.
+
+4. ENDRA Life Sciences.  
+   **Multi-Site Validation of the TAEUS Liver Device Against MRI-PDFF.**  
+   White paper, 2026.
