@@ -7,8 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-# A path toward accessible, quantitative molecular imaging
-
 Modern medical imaging is extraordinarily good at showing anatomy. But many diseases are characterized by biochemical and physiological changes before significant anatomical changes become apparent.
 
 Molecular imaging provides access to some of this information, but accessibility remains a fundamental limitation. Technologies such as PET and SPECT require specialized equipment, facilities, radiotracers, and infrastructure. Even when the information they provide is clinically valuable, obtaining it frequently or at the point of care can be difficult.
@@ -104,7 +102,7 @@ For me, the significance of that work extends beyond liver fat. It demonstrated 
 
 <div style="text-align: center;">
   <img src="/assets/img/Diagnossi_paper_Figure_4.png"
-       alt="TClinical comparison of Thermoacoustic Fat Fraction (TAFF) with MRI-PDFF. The study evaluated agreement, error distribution, and Deming regression across 40 subjects spanning a broad range of liver fat fractions"
+       alt="Clinical evaluation of Thermoacoustic Fat Fraction (TAFF) against MRI-PDFF: Bland–Altman agreement, error distribution, and Deming regression."
        style="max-width: 100%; height: auto;">
   <p><em>Overview of thermoacoustic imaging: RF excitation, absorption, thermoelastic expansion, acoustic detection, and image reconstruction.</em></p>
 </div>
@@ -161,8 +159,6 @@ That is why I believe the sequence matters.
 ---
 
 ## First, we need the imaging platform.
-
-This is where I believe the sequence matters.
 
 Developing molecular probes is difficult and expensive. There is limited incentive to build an ecosystem of thermoacoustic-specific contrast agents if researchers and clinicians do not have access to practical thermoacoustic imaging systems.
 
