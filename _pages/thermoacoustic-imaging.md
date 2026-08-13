@@ -118,7 +118,13 @@ I believe that view overlooks an important distinction between what the technolo
 
 Intrinsic RF absorption can already provide information related to tissue composition. But thermoacoustic contrast is not limited to the natural electromagnetic properties of tissue.
 
-Research has demonstrated that exogenous agents can enhance thermoacoustic contrast. In principle, contrast agents designed to target specific molecular targets could extend the range and specificity of biological information available for thermoacoustic imaging.
+## Beyond endogenous contrast
+
+Thermoacoustic imaging is not limited to the intrinsic electromagnetic properties of tissue.
+
+Early studies investigated a range of exogenous agents and showed that ionic conductivity can provide particularly strong thermoacoustic contrast. This work identified electrolytes such as saline as promising candidates for increasing RF absorption.
+
+More recent research has taken that concept substantially further. Chen and colleagues developed targetable nanodroplets containing hypertonic saline and demonstrated in-vivo UHF RF-acoustic molecular imaging of prostate cancer. GRPR-targeted nanodroplets produced substantially stronger signals in GRPR-positive tumors than untargeted controls, demonstrating molecular targeting specificity.
 
 This creates an intriguing long-term possibility:
 
@@ -134,7 +140,7 @@ That is why I believe the sequence matters.
 
 ## First, we need the imaging platform.
 
-Build a practical system.
+Build a practical system based on endogenous contrast.
 
 Make it reliable.
 
