@@ -131,7 +131,7 @@ Research has demonstrated that exogenous agents can enhance thermoacoustic contr
 
 This creates an intriguing long-term possibility:
 
-** Quantitative endogenous tissue characterization combined with exogenous molecular contrast on the same imaging platform.**
+**Quantitative endogenous tissue characterization combined with exogenous molecular contrast on the same imaging platform.**
 
 But there is a practical chicken-and-egg problem.
 
