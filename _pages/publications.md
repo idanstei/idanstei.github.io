@@ -19,7 +19,7 @@ Selected work is highlighted first. The remaining bibliography is organized by p
 
 </div>
 
-## Peer-reviewed Journal Articles
+## Peer-Reviewed Journal Articles
 
 <div class="publications">
 
@@ -43,7 +43,7 @@ Selected work is highlighted first. The remaining bibliography is organized by p
 
 </div>
 
-## Theses & Book Chapter
+## Theses & Book Chapters
 
 <div class="publications">
 
