@@ -30,6 +30,13 @@ The idea is to combine electromagnetic contrast with acoustic detection, creatin
 
 ## What is thermoacoustic imaging?
 
+<div style="text-align: center;">
+  <img src="/assets/img/Thermoaocustic_imaging.png"
+       alt="Thermoacoustic imaging process diagram"
+       style="max-width: 100%; height: auto;">
+  <p><em>Overview of thermoacoustic imaging: RF excitation, absorption, thermoelastic expansion, acoustic detection, and image reconstruction.</em></p>
+</div>
+
 Thermoacoustic imaging uses short pulses of radiofrequency (RF) energy to excite tissue. Absorption of electromagnetic energy produces a very small, rapid temperature rise, resulting in thermoelastic expansion and the generation of acoustic waves.
 
 Those waves can be detected using ultrasound transducers and reconstructed into an image.
