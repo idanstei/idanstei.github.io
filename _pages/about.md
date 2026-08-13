@@ -27,7 +27,7 @@ latest_posts:
 
 I’m an R&D executive and biomedical engineer with a background in medical imaging, acoustics, signal processing, and the development of diagnostic medical devices.
 
-My career began close to the underlying technology—developing algorithms, imaging systems, and instrumentation—and gradually expanded into clinical translation, product development, and R&D leadership. Along the way, I’ve led multidisciplinary teams working across engineering, physics, software, clinical research, manufacturing, and regulatory disciplines, taking technologies from early research through clinical validation and toward commercialization.
+My career began close to the underlying technology, developing algorithms, imaging systems, and instrumentation, and gradually expanded into clinical translation, product development, and R&D leadership. Along the way, I’ve led multidisciplinary teams working across engineering, physics, software, clinical research, manufacturing, and regulatory disciplines, taking technologies from early research through clinical validation and toward commercialization.
 
 Despite that progression, I’ve always stayed close to the technical problems. I enjoy understanding the physics behind a system, figuring out why something isn’t working, and building the team and development strategy needed to turn a promising technology into something that works reliably in the real world.
 
@@ -35,7 +35,7 @@ Despite that progression, I’ve always stayed close to the technical problems. 
 
 One problem has become particularly important to me: **making molecular imaging much more widely accessible.**
 
-Many diseases are characterized by biochemical and physiological changes before significant anatomical changes become apparent. Those changes can tell us what is happening in tissue—not simply what the tissue looks like—and provide valuable information for studying disease, diagnosing it, and monitoring its progression or response to treatment.
+Many diseases are characterized by biochemical and physiological changes before significant anatomical changes become apparent. Those changes can tell us what is happening in tissue—not simply what the tissue looks like, and provide valuable information for studying disease, diagnosing it, and monitoring its progression or response to treatment.
 
 Molecular imaging provides access to this kind of information, but many of today’s technologies require expensive equipment, specialized facilities, or infrastructure, limiting where and how frequently they can be used.
 

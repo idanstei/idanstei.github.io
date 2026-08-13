@@ -7,15 +7,6 @@ nav: true
 nav_order: 3
 ---
 
----
-layout: page
-title: Thermoacoustic Imaging
-permalink: /thermoacoustic-imaging/
-description: A path toward accessible, quantitative molecular imaging.
-nav: true
-nav_order: 3
----
-
 # A path toward accessible, quantitative molecular imaging
 
 Modern medical imaging is extraordinarily good at showing anatomy. But many diseases are characterized by biochemical and physiological changes before significant anatomical changes become apparent.
