@@ -3,10 +3,10 @@
   resume.json is already ordered newest-to-oldest, including year-only dates.
 {% endcomment %}
 
-<ul class="card-text font-weight-light list-group list-group-flush">
+<ul class="card-text font-weight-light list-group list-group-flush" style="list-style: none; padding-left: 0;">
   {% for entry in entries %}
     {% unless entry.name contains 'Full List on Google Scholar' %}
-      <li class="list-group-item">
+      <li class="list-group-item" style="list-style: none;">
         <div class="row">
           <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
             {% assign pub_year = entry.releaseDate | append: '' | split: '-' | first | strip %}
