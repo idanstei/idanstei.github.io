@@ -3,10 +3,38 @@
 
   Important:
   - Education and Publications are already ordered in resume.json.
-  - Do NOT pass those two sections through al_cv_sort_by_date. The plugin date
-    normalizer can mangle year-only dates (e.g. 2023 -> "- 2023") and can omit
-    year-only publication records.
+  - Do NOT pass those two sections through al_cv_sort_by_date.
 {% endcomment %}
+
+<style>
+  /* Remove the stray top-level list markers next to CV timeline entries.
+     Keep the nested achievement bullets inside individual experience entries. */
+  #experience + .card > div > ul,
+  #education + .card > div > ul {
+    list-style: none !important;
+  }
+
+  #experience + .card > div > ul > li,
+  #education + .card > div > ul > li {
+    list-style: none !important;
+  }
+
+  /* Selected-publication alignment: match the visual inset used by
+     Experience/Education and vertically center year badges with titles. */
+  .cv-publication-item {
+    list-style: none !important;
+  }
+
+  @media (min-width: 768px) {
+    .cv-publication-item {
+      padding-left: 2.5rem !important;
+    }
+
+    .cv-publication-date {
+      padding-top: 0.5rem;
+    }
+  }
+</style>
 
 <div class="post">
   <header class="post-header">
@@ -36,6 +64,7 @@
   <article>
     <div class="cv">
       {% if page.cv_format == 'jsonresume' and site.data.resume %}
+
         {% if site.data.resume.basics.summary %}
           <a class="anchor" id="professional-summary"></a>
           <div class="card mt-3 p-3">
@@ -95,9 +124,7 @@
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Selected Publications</h3>
             <p class="font-weight-light mb-3">
-              <a href="https://scholar.google.com/citations?user=sosl-VsAAAAJ" target="_blank" rel="noopener noreferrer"
-                >Full list on Google Scholar</a
-              ><br>
+              <a href="https://scholar.google.com/citations?user=sosl-VsAAAAJ" target="_blank" rel="noopener noreferrer">Full list on Google Scholar</a><br>
               Over 50 peer-reviewed publications and more than 2,000 citations
             </p>
             <div>

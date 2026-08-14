@@ -1,0 +1,17 @@
+{% comment %}
+  Site-specific Skills renderer.
+  Omits the empty JSONResume level field so labels render as
+  "Leadership:" rather than "Leadership ():".
+{% endcomment %}
+
+<div class="card-text font-weight-light">
+  {% for entry in entries %}
+    <p>
+      {% if entry.icon %}
+        <i class="{{ entry.icon }}"></i>
+      {% endif %}
+      <strong>{{ entry.name }}:</strong>
+      {{ entry.keywords | join: ", " }}
+    </p>
+  {% endfor %}
+</div>
