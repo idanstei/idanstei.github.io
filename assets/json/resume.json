@@ -59,17 +59,7 @@
       "name": "Software & Modeling",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "MATLAB",
-        "C++",
-        "CUDA",
-        "k-Wave",
-        "Field II",
-        "COMSOL",
-        "Ansys HFSS",
-        "ZEMAX"
-      ]
+      "keywords": ["Python", "MATLAB", "C++", "CUDA", "k-Wave", "Field II", "COMSOL", "Ansys HFSS", "ZEMAX"]
     },
     {
       "name": "Hardware & Instrumentation",

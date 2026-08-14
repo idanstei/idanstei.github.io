@@ -212,15 +212,15 @@ If you are working on thermoacoustic imaging, molecular imaging, RF or acoustic 
 
 1. Cho JH, Bull CM, Thornton M, Gao J, Rubin JM, Steinberg I.  
    [**Thermoacoustic Ultrasound Assessment of Liver Steatosis—A Novel Approach for MASLD Diagnosis.**](https://doi.org/10.3390/diagnostics16050804)  
-   *Diagnostics*. 2026;16:804.
+   _Diagnostics_. 2026;16:804.
 
 2. Chen Y-S, Zhao Y, Beinat C, et al.  
    [**Ultra-high-frequency radio-frequency acoustic molecular imaging with saline nanodroplets in living subjects.**](https://doi.org/10.1038/s41565-021-00869-5)  
-   *Nature Nanotechnology*. 2021;16:717–724.
+   _Nature Nanotechnology_. 2021;16:717–724.
 
 3. Ogunlade O, Beard P.  
    [**Exogenous contrast agents for thermoacoustic imaging: An investigation into the underlying sources of contrast.**](https://doi.org/10.1118/1.4903277)  
-   *Medical Physics*. 2015;42(1):170–181.
+   _Medical Physics_. 2015;42(1):170–181.
 
 4. ENDRA Life Sciences.  
    **Multi-Site Validation of the TAEUS Liver Device Against MRI-PDFF.**  
