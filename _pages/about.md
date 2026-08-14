@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>Ann Arbor, MI</p>
     <p><a href="mailto:idanstei@gmail.com">idanstei@gmail.com</a></p>
-    <p>(650) 469-6437</p>
 
 selected_papers: false
 social: true
