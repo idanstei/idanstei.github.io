@@ -208,17 +208,26 @@ html[data-theme-setting="light"] {
 }
 
 // Social/contact icons
-// Light mode: black by default.
+// Use exact source colors for raster icons so Resume and LinkedIn match
+// the font icons exactly instead of relying on approximate CSS filters.
+
+// Font-based icons: Email + Google Scholar.
+// Light mode: black. Dark mode: white. Hover: exact dark blue.
 html:not([data-theme="dark"]) .social a,
 html:not([data-theme="dark"]) .social a i {
   color: #000000;
 }
 
-html:not([data-theme="dark"]) .social a i {
+html[data-theme="dark"] .social a,
+html[data-theme="dark"] .social a i {
+  color: #ffffff;
+}
+
+html:not([data-theme="dark"]) .social a i,
+html[data-theme="dark"] .social a i {
   transition: color 0.2s ease;
 }
 
-// All font-based social icons use the same dark-blue hover in both themes.
 html:not([data-theme="dark"]) .social a:hover,
 html:not([data-theme="dark"]) .social a:hover i,
 html[data-theme="dark"] .social a:hover,
@@ -226,22 +235,36 @@ html[data-theme="dark"] .social a:hover i {
   color: #004a86;
 }
 
-// Raster icons (Resume + LinkedIn): black in light mode.
-html:not([data-theme="dark"]) .social a img {
-  filter: grayscale(1) brightness(0);
-  transition: filter 0.2s ease;
+// Resume raster icon: use exact black/white/blue source images.
+html:not([data-theme="dark"]) .social a[href="/cv/"] img {
+  content: url("https://img.icons8.com/ios-filled/100/000000/document.png");
+  filter: none;
 }
 
-// Raster icons (Resume + LinkedIn): white in dark mode.
-html[data-theme="dark"] .social a img {
-  filter: grayscale(1) brightness(0) invert(1);
-  transition: filter 0.2s ease;
+html[data-theme="dark"] .social a[href="/cv/"] img {
+  content: url("https://img.icons8.com/ios-filled/100/ffffff/document.png");
+  filter: none;
 }
 
-// Raster-icon hover in both themes.
-// This filter maps a black source icon to approximately #004a86,
-// matching the font-icon hover color.
-html:not([data-theme="dark"]) .social a:hover img,
-html[data-theme="dark"] .social a:hover img {
-  filter: brightness(0) saturate(100%) invert(34%) sepia(25%) saturate(6611%) hue-rotate(155deg) brightness(37%) contrast(81%);
+html:not([data-theme="dark"]) .social a[href="/cv/"]:hover img,
+html[data-theme="dark"] .social a[href="/cv/"]:hover img {
+  content: url("https://img.icons8.com/ios-filled/100/004a86/document.png");
+  filter: none;
+}
+
+// LinkedIn raster icon: same exact black/white/blue treatment.
+html:not([data-theme="dark"]) .social a[href*="linkedin.com"] img {
+  content: url("https://img.icons8.com/ios-filled/100/000000/linkedin.png");
+  filter: none;
+}
+
+html[data-theme="dark"] .social a[href*="linkedin.com"] img {
+  content: url("https://img.icons8.com/ios-filled/100/ffffff/linkedin.png");
+  filter: none;
+}
+
+html:not([data-theme="dark"]) .social a[href*="linkedin.com"]:hover img,
+html[data-theme="dark"] .social a[href*="linkedin.com"]:hover img {
+  content: url("https://img.icons8.com/ios-filled/100/004a86/linkedin.png");
+  filter: none;
 }
