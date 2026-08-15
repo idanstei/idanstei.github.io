@@ -222,6 +222,7 @@ html:not([data-theme="dark"]) .social a:hover i {
   color: #004a86;
 }
 
+// Raster icons: Resume + LinkedIn
 html:not([data-theme="dark"]) .social a img {
   filter: grayscale(1) brightness(0);
   transition: filter 0.2s ease;
@@ -229,4 +230,9 @@ html:not([data-theme="dark"]) .social a img {
 
 html:not([data-theme="dark"]) .social a:hover img {
   filter: brightness(0) saturate(100%) invert(23%) sepia(38%) saturate(2587%) hue-rotate(178deg) brightness(76%) contrast(103%);
+}
+
+// Raster icons in dark mode
+html[data-theme="dark"] .social a img {
+  filter: grayscale(1) brightness(0) invert(1);
 }
