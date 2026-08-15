@@ -207,29 +207,26 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-/ Social/contact icons — light mode
-html:not([data-theme="dark"]) .social a {
-  color: #000;
+// Social/contact icons — light mode
+html:not([data-theme="dark"]) .social a,
+html:not([data-theme="dark"]) .social a i {
+  color: #000000;
 }
 
-// Font-based icons: Email + Google Scholar
 html:not([data-theme="dark"]) .social a i {
-  color: #000;
   transition: color 0.2s ease;
 }
 
+html:not([data-theme="dark"]) .social a:hover,
 html:not([data-theme="dark"]) .social a:hover i {
   color: #004a86;
 }
 
-// Image-based icons: Resume + LinkedIn
 html:not([data-theme="dark"]) .social a img {
-  filter: brightness(0) saturate(100%);
+  filter: grayscale(1) brightness(0);
   transition: filter 0.2s ease;
 }
 
 html:not([data-theme="dark"]) .social a:hover img {
-  filter: brightness(0) saturate(100%)
-    invert(24%) sepia(55%) saturate(1800%)
-    hue-rotate(175deg) brightness(82%) contrast(100%);
+  filter: brightness(0) saturate(100%) invert(23%) sepia(38%) saturate(2587%) hue-rotate(178deg) brightness(76%) contrast(103%);
 }
