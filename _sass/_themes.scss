@@ -207,11 +207,10 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-// Resume/PDF social icon in light mode
-html:not([data-theme="dark"]) .social a[href*=".pdf"],
-html:not([data-theme="dark"]) .social a[href*=".pdf"] i,
-html:not([data-theme="dark"]) .social a[href*=".pdf"] svg,
-html:not([data-theme="dark"]) .social a[href*=".pdf"] svg path {
+// Resume icon in light mode
+html:not([data-theme="dark"]) .social .fa-file,
+html:not([data-theme="dark"]) .social .fa-file-lines,
+html:not([data-theme="dark"]) .social .fa-file-alt,
+html:not([data-theme="dark"]) .social .fa-file-pdf {
   color: var(--global-text-color) !important;
-  fill: currentColor !important;
 }
