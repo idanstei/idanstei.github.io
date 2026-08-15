@@ -112,11 +112,16 @@ og_image: /assets/img/idan-steinberg-og.png # The site-wide (default for all lin
 analytics:
   # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
   # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-  google: G-DH7GFM3JH5
-  cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-  pirsch: # your Pirsch analytics site ID (length 32 characters)
-  openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-  cloudflare: # your Cloudflare Web Analytics beacon token (32 hex characters)
+  enable_google_analytics: true # set to false to disable Google Analytics
+  google: "G-DH7GFM3JH5"
+  cronitor: false # cronitor RUM analytics site ID (format: XXXXXXXXX)
+  cronitor_analytics:
+  pirsch: false # your Pirsch analytics site ID (length 32 characters)
+  pirsch_analytics:
+  openpanel: false # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+  openpanel_analytics:
+  cloudflare: false # your Cloudflare Web Analytics beacon token (32 hex characters)
+  cloudflare`_analytics:
 enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
