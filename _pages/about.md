@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Vice President of Research & Development | Biomedical Engineering Ph.D.
+description: R&D executive and biomedical engineer specializing in medical imaging, ultrasound, acoustics, medical devices, clinical translation, and product development.
 
 profile:
   align: right

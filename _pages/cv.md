@@ -6,7 +6,7 @@ nav: true
 nav_order: 3
 cv_pdf: /assets/pdf/Idan_Steinberg_Resume.pdf
 cv_format: jsonresume
-description: Executive R&D leadership in medical devices, imaging, clinical translation, and product development.
+description: Thermoacoustic imaging for quantitative tissue characterization and accessible molecular imaging, spanning RF excitation, acoustic detection, and clinical translation.
 toc:
   sidebar: left
 ---

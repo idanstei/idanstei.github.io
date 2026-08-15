@@ -2,9 +2,10 @@
 layout: page
 title: Thermoacoustics
 permalink: /thermoacoustic-imaging/
-description: A path toward accessible, quantitative molecular imaging.
+description: Thermoacoustic imaging for quantitative tissue characterization and accessible molecular imaging, spanning RF excitation, acoustic detection, and clinical translation.
 nav: true
 nav_order: 3
+og_image: /assets/img/taeus_clinical_workflow.png
 ---
 
 Modern medical imaging is extraordinarily good at showing anatomy. But many diseases are characterized by biochemical and physiological changes before significant anatomical changes become apparent.

@@ -9,7 +9,8 @@ last_name: Steinberg
 contact_note: >
   You can reach me directly via email or connect with me on LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Dynamic, highly innovative engineer and Vice President of Research and Development specializing in medical devices and medical imaging.
+  Idan Steinberg is an R&D executive and biomedical engineer specializing
+  in medical imaging, ultrasound, acoustics, medical devices, and clinical translation.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -23,6 +24,8 @@ baseurl: ""
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
+
+
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -98,9 +101,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/idan-steinberg-og.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
