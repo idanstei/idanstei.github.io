@@ -206,3 +206,30 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+
+/ Social/contact icons — light mode
+html:not([data-theme="dark"]) .social a {
+  color: #000;
+}
+
+// Font-based icons: Email + Google Scholar
+html:not([data-theme="dark"]) .social a i {
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+html:not([data-theme="dark"]) .social a:hover i {
+  color: #004a86;
+}
+
+// Image-based icons: Resume + LinkedIn
+html:not([data-theme="dark"]) .social a img {
+  filter: brightness(0) saturate(100%);
+  transition: filter 0.2s ease;
+}
+
+html:not([data-theme="dark"]) .social a:hover img {
+  filter: brightness(0) saturate(100%)
+    invert(24%) sepia(55%) saturate(1800%)
+    hue-rotate(175deg) brightness(82%) contrast(100%);
+}

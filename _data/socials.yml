@@ -5,7 +5,7 @@
 # cv_pdf: /assets/pdf/Idan_Steinberg_Resume.pdf # path to your CV PDF file (commented out to remove the default 'CV' icon)
 
 resume:
-  logo: https://img.icons8.com/ios-filled/100/005ea8/document.png # The plugin requires a logo file/URL with an extension
+  logo: https://img.icons8.com/ios-filled/100/000000/document.png # The plugin requires a logo file/URL with an extension
   title: Resume
   url: /cv/
 
