@@ -207,7 +207,8 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-// Social/contact icons — light mode
+// Social/contact icons
+// Light mode: black by default.
 html:not([data-theme="dark"]) .social a,
 html:not([data-theme="dark"]) .social a i {
   color: #000000;
@@ -217,22 +218,30 @@ html:not([data-theme="dark"]) .social a i {
   transition: color 0.2s ease;
 }
 
+// All font-based social icons use the same dark-blue hover in both themes.
 html:not([data-theme="dark"]) .social a:hover,
-html:not([data-theme="dark"]) .social a:hover i {
+html:not([data-theme="dark"]) .social a:hover i,
+html[data-theme="dark"] .social a:hover,
+html[data-theme="dark"] .social a:hover i {
   color: #004a86;
 }
 
-// Raster icons: Resume + LinkedIn
+// Raster icons (Resume + LinkedIn): black in light mode.
 html:not([data-theme="dark"]) .social a img {
   filter: grayscale(1) brightness(0);
   transition: filter 0.2s ease;
 }
 
-html:not([data-theme="dark"]) .social a:hover img {
-  filter: brightness(0) saturate(100%) invert(23%) sepia(38%) saturate(2587%) hue-rotate(178deg) brightness(76%) contrast(103%);
-}
-
-// Raster icons in dark mode
+// Raster icons (Resume + LinkedIn): white in dark mode.
 html[data-theme="dark"] .social a img {
   filter: grayscale(1) brightness(0) invert(1);
+  transition: filter 0.2s ease;
+}
+
+// Raster-icon hover in both themes.
+// This filter maps a black source icon to approximately #004a86,
+// matching the font-icon hover color.
+html:not([data-theme="dark"]) .social a:hover img,
+html[data-theme="dark"] .social a:hover img {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(25%) saturate(6611%) hue-rotate(155deg) brightness(37%) contrast(81%);
 }
