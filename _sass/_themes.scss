@@ -207,10 +207,7 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-// Resume icon in light mode
-html:not([data-theme="dark"]) .social .fa-file,
-html:not([data-theme="dark"]) .social .fa-file-lines,
-html:not([data-theme="dark"]) .social .fa-file-alt,
-html:not([data-theme="dark"]) .social .fa-file-pdf {
-  color: var(--global-text-color) !important;
+// Resume icon: white in dark mode, black in light mode
+html:not([data-theme="dark"]) .social a[href="/cv/"] img {
+  filter: invert(1);
 }
