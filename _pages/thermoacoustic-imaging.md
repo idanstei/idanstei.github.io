@@ -71,8 +71,8 @@ Non-alcoholic fatty liver disease / metabolic dysfunction-associated steatotic l
 Thermoacoustics offers a different approach. Rather than relying on an acoustic surrogate for fat, it derives contrast from differences in the electromagnetic properties of lean and fatty tissue.
 
 <div style="text-align: center;">
-  <img src="/assets/img/taeus_probe_handheld.png"
-       alt="Handheld TAEUS probe for liver fat assessment"
+  <img src="/assets/img/taeus_clinical_workflow.png"
+       alt="TAEUS clinical workflow for liver fat assessment"
        style="max-width: 100%; height: auto;">
   <p><em>Handheld thermoacoustic probe concept developed for liver fat assessment, combining RF transmission and ultrasound reception in a clinically oriented form factor.</em></p>
 </div>
