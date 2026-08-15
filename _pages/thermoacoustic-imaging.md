@@ -9,11 +9,11 @@ nav_order: 3
 
 Modern medical imaging is extraordinarily good at showing anatomy. But many diseases are characterized by biochemical and physiological changes before significant anatomical changes become apparent.
 
-Molecular imaging provides access to some of this information, but accessibility remains a fundamental limitation. Technologies such as PET and SPECT require specialized equipment, facilities, radiotracers, and infrastructure. Even when the information they provide is clinically valuable, obtaining it frequently or at the point of care can be difficult.
+Molecular imaging provides access to some of this critical information, but accessibility remains a significant limitation. Technologies such as positron emission tomography (PET) and single-photon emission computed tomography (SPECT) require specialized equipment, facilities, radiotracers, and infrastructure. Even when the information they provide is clinically valuable, frequent or point-of-care acquisition can be difficult.
 
-**I believe thermoacoustic imaging could help close that gap.**
+**I believe thermoacoustic imaging could help address this gap.**
 
-Thermoacoustics combines electromagnetic contrast with acoustic detection, creating the potential to obtain molecular and compositional information using an imaging platform that could ultimately retain many of the practical advantages of ultrasound.
+Thermoacoustics combines electromagnetic contrast with acoustic detection, offering the potential to acquire molecular and compositional information using an imaging platform that could retain many of the practical advantages of ultrasound.
 
 ---
 
@@ -34,7 +34,7 @@ The basic process is:
 
 **RF excitation → electromagnetic absorption → thermoelastic expansion → acoustic transient → ultrasound detection → image**
 
-Unlike conventional ultrasound, where contrast primarily arises from differences in acoustic properties and reflections at tissue boundaries, thermoacoustic contrast originates from the interaction between electromagnetic energy and tissue.
+Unlike conventional ultrasound, where contrast mainly originates from differences in acoustic properties and reflections at tissue boundaries, thermoacoustic contrast originates from the interaction between electromagnetic energy and tissue.
 
 This provides access to information that conventional ultrasound cannot directly measure.
 
@@ -58,7 +58,7 @@ Photoacoustic imaging benefits from the rich optical absorption spectrum of biol
 
 At RF frequencies, electromagnetic fields vary over centimeter scales and can generally be modeled and compensated for more readily than optical fluence deep within heterogeneous tissue.
 
-**This creates a practical path toward recovering quantitative information about tissue properties rather than relying solely on qualitative image contrast.**
+**This enables a practical approach to recovering quantitative information about tissue properties, rather than relying solely on qualitative image contrast.**
 
 ---
 
@@ -72,26 +72,26 @@ Thermoacoustics offers a different approach. Rather than relying on an acoustic 
 
 <div style="text-align: center;">
   <img src="/assets/img/taeus_clinical_workflow.png"
-       alt="TAEUS clinical workflow for liver fat assessment"
+       alt="Clinical thermoacoustic imaging workflow showing probe positioning, B-mode ultrasound, and thermoacoustic overlay"
        style="max-width: 100%; height: auto;">
-  <p><em>Handheld thermoacoustic probe concept developed for liver fat assessment, combining RF transmission and ultrasound reception in a clinically oriented form factor.</em></p>
+  <p><em>Clinical thermoacoustic imaging workflow: probe positioning, anatomical B-mode ultrasound, and co-registered thermoacoustic signal overlay.</em></p>
 </div>
 
-That product orientation is important to me. A technology becomes much more interesting when it begins to look less like a laboratory experiment and more like a practical imaging system.
+That transition matters to me: the technology begins to look less like a laboratory experiment and more like a practical imaging system.
 
 ---
 
 ## Demonstrating quantitative thermoacoustic imaging in humans
 
-At ENDRA Life Sciences, my focus shifted from exploring what thermoacoustics could potentially measure to a different challenge: could we turn it into a practical quantitative clinical device?
+At ENDRA Life Sciences, my focus shifted from exploring what thermoacoustics could measure to a different challenge: could we turn it into a practical, quantitative clinical device?
 
-We developed the TAEUS Liver system to estimate liver fat fraction using differences in RF absorption associated with tissue composition.
+We developed the TAEUS Liver system to estimate the liver fat fraction by exploiting differences in RF absorption associated with tissue composition.
 
-In a prospective clinical feasibility study of 40 subjects, Thermoacoustic Fat Fraction (TAFF) showed a correlation of **r = 0.89** with MRI-PDFF, with a mean absolute error of **3.04 percentage points**. Nearly **90% of subjects were within 5 percentage points** of the MRI-PDFF reference measurement.
+In a prospective clinical feasibility study of 40 subjects, Thermoacoustic Fat Fraction (TAFF) showed a correlation **r = 0.89** with MRI-PDFF, with a mean absolute error of **3.04 percentage points**. Nearly **90% of subjects were within 5 percentage points** of the MRI-PDFF reference measurement.
 
-Subsequent company-reported multi-site evaluation expanded the dataset to 64 subjects across sites in the United States and Canada. The same underlying estimation algorithm was used at an independent external site without site-specific tuning, and the combined cohort maintained a correlation of **r = 0.90** with MRI-PDFF. These later results were reported in an ENDRA company white paper and have not yet undergone peer review.
+A subsequent company-reported multi-site evaluation expanded the dataset to 64 subjects across sites in the United States and Canada. The same underlying estimation algorithm was used at an independent external site without site-specific tuning, and the combined cohort maintained a correlation of **r = 0.90** with MRI-PDFF. These later results were reported in an ENDRA company white paper and have not yet undergone peer review.
 
-For me, the significance of that work extends beyond liver fat. It demonstrated that thermoacoustics could move beyond producing an interesting image and toward providing a repeatable, quantitative measurement in human subjects.
+For me, the significance of this work extends beyond liver fat assessment. It demonstrated that thermoacoustics can progress from generating visually interesting images to providing repeatable, quantitative measurements in human subjects.
 
 <div style="text-align: center;">
   <img src="/assets/img/Diagnossi_paper_Figure_4.png"
@@ -104,9 +104,9 @@ For me, the significance of that work extends beyond liver fat. It demonstrated 
 
 ## From tissue composition to molecular imaging
 
-Thermoacoustic imaging has less rich intrinsic biological contrast than optical photoacoustics. But that is different from saying that thermoacoustic contrast is limited to the natural electromagnetic properties of tissue.
+Thermoacoustic imaging has less rich intrinsic biological contrast than optical photoacoustics. But that is different from saying that thermoacoustic contrast is restricted to the natural electromagnetic properties of tissue.
 
-Intrinsic RF absorption can already provide quantitative information related to tissue composition. Exogenous agents can add another layer of specificity.
+Intrinsic RF absorption can already provide quantitative information about tissue composition. Exogenous agents can add another layer of specificity.
 
 ---
 
@@ -118,15 +118,15 @@ At Stanford Radiology, I worked under Dr. Sanjiv Sam Gambhir, whose group was de
 
 That research eventually demonstrated **in vivo RF-acoustic molecular imaging of prostate cancer**. GRPR-targeted nanodroplets produced substantially stronger RF-acoustic signals in GRPR-positive prostate tumors than in the comparison groups, demonstrating that molecular targeting could be incorporated into an RF-acoustic imaging approach.
 
-Later, while serving as Applied Science Leader at ENDRA Life Sciences, I provided both Yun-Sheng Chen and Olumide "Ollie" Ogunlade access to TAEUS systems so they could continue their research in thermoacoustic imaging.
+Later, while serving as Applied Science Leader at ENDRA Life Sciences, I provided both Yun-Sheng Chen and Olumide “Ollie” Ogunlade access to TAEUS systems so they could continue their research in thermoacoustic imaging.
 
 For me, this creates a direct connection between two sides of the problem: developing the imaging instrument and exploring the molecular contrast that the instrument could eventually support.
 
 <div style="text-align: center;">
   <img src="/assets/img/stanford_targeted_molecular_imaging.png"
-       alt="Targeted radiofrequency-acoustic molecular imaging at Stanford"
+       alt="Targeted RF-acoustic molecular imaging using saline nanodroplets"
        style="max-width: 100%; height: auto;">
-  <p><em>Targeted RF-acoustic molecular imaging work from Stanford, showing the transition from benign contrast media to molecularly targeted contrast.</em></p>
+  <p><em>Targeted RF-acoustic molecular imaging: saline-loaded nanodroplet contrast agent, RF-acoustic imaging platform, and in vivo targeted tumor contrast. Adapted from Chen et al., <i>Nature Nanotechnology</i> (2021).</em></p>
 </div>
 
 ---
@@ -135,7 +135,7 @@ For me, this creates a direct connection between two sides of the problem: devel
 
 Thermoacoustic imaging already provides endogenous contrast based on differences in tissue electromagnetic properties. At ENDRA, we exploited that contrast to quantify liver fat, where differences in water, electrolyte, and lipid composition produce measurable differences in RF absorption.
 
-But the potential does not stop with intrinsic tissue contrast.
+However, the potential extends beyond intrinsic tissue contrast.
 
 Earlier work on thermoacoustic contrast agents investigated materials including gadolinium compounds, iron oxide particles, carbon nanotubes, and electrolytes. Those studies showed an important result: what matters is not simply whether a material resembles a conventional contrast agent, but how it changes electromagnetic absorption.
 
@@ -143,7 +143,7 @@ In particular, work by Ogunlade and Beard showed that ionic conductivity can pro
 
 Chen and colleagues subsequently encapsulated hypertonic saline within biocompatible nanodroplets and functionalized the particles for molecular targeting. Using GRPR-targeted nanodroplets, they demonstrated **in vivo RF-acoustic molecular imaging of prostate cancer**.
 
-This matters because it shows that molecular specificity is not merely a hypothetical future extension of thermoacoustic imaging. It has already been demonstrated experimentally.
+These results are significant because they demonstrate that molecular specificity is not solely a hypothetical future extension of thermoacoustic imaging; it has already been experimentally validated.
 
 ---
 
@@ -155,9 +155,9 @@ So the first step is the instrument.
 
 Build a practical system. Make it reliable. Make it quantitative. Put it in the hands of researchers and clinicians.
 
-Once the platform exists, researchers can explore new applications. Clinicians can identify new biological questions it might answer. Chemists and molecular-imaging researchers have a reason to develop new probes and contrast agents around it.
+Once the platform is in place, researchers can explore new applications. Clinicians can identify new biological questions it might answer. Chemists and molecular-imaging researchers have a reason to develop new probes and contrast agents around it.
 
-The imaging system can become the foundation for an ecosystem rather than the endpoint of a single application.
+The imaging system can become the foundation for a broader ecosystem rather than the endpoint of a single application.
 
 **That is the opportunity I want to continue working on.**
 
@@ -165,9 +165,9 @@ The imaging system can become the foundation for an ecosystem rather than the en
 
 ## What needs to happen next?
 
-Thermoacoustic imaging has been studied for decades, and many of its underlying physical principles are well established.
+Thermoacoustic imaging has been studied for decades, and many of its core physical principles are well established.
 
-The challenge now is translation.
+The current challenge is clinical translation.
 
 A practical quantitative thermoacoustic platform requires progress across multiple disciplines:
 
@@ -182,9 +182,9 @@ A practical quantitative thermoacoustic platform requires progress across multip
 - clinical workflow and usability
 - and, eventually, targeted contrast agents and molecular probes
 
-These are not independent problems. They have to work together as a system.
+These challenges are interdependent and must be addressed together as a unified system.
 
-That intersection of physics, engineering, clinical translation, and product development is exactly what makes thermoacoustic imaging so interesting to me.
+The intersection of physics, engineering, clinical translation, and product development is precisely what makes thermoacoustic imaging compelling to me.
 
 ---
 
@@ -198,11 +198,11 @@ Ultrasound succeeded not only because of the information it provides, but becaus
 
 Molecular imaging provides a fundamentally different kind of information, but today it generally lacks that level of accessibility.
 
-I believe quantitative thermoacoustic imaging offers a compelling path toward narrowing that gap.
+Quantitative thermoacoustic imaging offers a promising approach to narrowing this gap.
 
 The first step is the device.
 
-The longer-term opportunity is a platform capable of providing quantitative tissue information and, eventually, supporting increasingly specific molecular contrast.
+The longer-term opportunity is a platform capable of delivering quantitative tissue information and, eventually, supporting increasingly specific molecular contrast.
 
 **My goal is to help make that platform real.**
 
