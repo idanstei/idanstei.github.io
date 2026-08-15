@@ -208,8 +208,8 @@ html[data-theme-setting="light"] {
 }
 
 // Social/contact icons
-// Use exact source colors for raster icons so Resume and LinkedIn match
-// the font icons exactly instead of relying on approximate CSS filters.
+// Font-based icons use currentColor. Resume is converted from its raster image
+// to a Font Awesome pseudo-element so its colors match exactly in every state.
 
 // Font-based icons: Email + Google Scholar.
 // Light mode: black. Dark mode: white. Hover: exact dark blue.
@@ -235,21 +235,20 @@ html[data-theme="dark"] .social a:hover i {
   color: #004a86;
 }
 
-// Resume raster icon: use exact black/white/blue source images.
-html:not([data-theme="dark"]) .social a[href="/cv/"] img {
-  content: url("https://img.icons8.com/ios-filled/100/000000/document.png");
-  filter: none;
+// Resume icon: render it as a Font Awesome glyph instead of recoloring a raster image.
+// This makes it inherit the exact same color as Email/Scholar in every state.
+.social a[href="/cv/"] img {
+  display: none;
 }
 
-html[data-theme="dark"] .social a[href="/cv/"] img {
-  content: url("https://img.icons8.com/ios-filled/100/ffffff/document.png");
-  filter: none;
-}
-
-html:not([data-theme="dark"]) .social a[href="/cv/"]:hover img,
-html[data-theme="dark"] .social a[href="/cv/"]:hover img {
-  content: url("https://img.icons8.com/ios-filled/100/004a86/document.png");
-  filter: none;
+.social a[href="/cv/"]::before {
+  content: "\f15c"; // Font Awesome: file-lines
+  display: inline-block;
+  color: currentColor;
+  font: var(--fa-font-solid);
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 // LinkedIn raster icon: same exact black/white/blue treatment.
