@@ -209,7 +209,7 @@ html[data-theme-setting="light"] {
 
 /*! purgecss start ignore */
 // Social/contact icons
-// Exact shared hover color: rgb(0, 74, 134) = #004a86.
+// Social hover color follows the active theme color so Resume matches the other icons exactly.
 
 // Font-based icons (Email, Scholar, LinkedIn)
 html:not([data-theme="dark"]) .social a,
@@ -228,7 +228,7 @@ html[data-theme="dark"] .social a i {
 
 html .social a:hover,
 html .social a:hover i {
-  color: #004a86 !important;
+  color: var(--global-theme-color) !important;
 }
 
 // Resume: hide the raster PNG and render a monochrome CSS-mask icon instead.
@@ -262,6 +262,6 @@ html[data-theme="dark"] .social a[href="/cv/"]::before {
 }
 
 html .social a[href="/cv/"]:hover::before {
-  background-color: #004a86 !important;
+  background-color: var(--global-theme-color) !important;
 }
 /*! purgecss end ignore */
