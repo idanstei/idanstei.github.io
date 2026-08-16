@@ -1,12 +1,12 @@
 ==============================================================================
 IDANSTEI.COM — PRODUCTION QA
 ==============================================================================
-Timestamp (local runtime): 2026-08-16 12:42:25 UTC
+Timestamp (local runtime): 2026-08-16 13:53:05 UTC
 
 1. DOMAIN / REDIRECTS
-  200  http://idanstei.com/ -> http://idanstei.com/
+  200  http://idanstei.com/ -> https://idanstei.com/
   200  https://idanstei.com/ -> https://idanstei.com/
-  200  http://www.idanstei.com/ -> http://idanstei.com/
+  200  http://www.idanstei.com/ -> https://idanstei.com/
   200  https://www.idanstei.com/ -> https://idanstei.com/
 
 2. ROBOTS.TXT
@@ -160,8 +160,7 @@ Timestamp (local runtime): 2026-08-16 12:42:25 UTC
 
 8. INTERNAL ASSETS
   assets checked          31
-  failed assets           1
-  BROKEN 404 https://idanstei.com/assets/al_cookie/js/cookie-theme-sync.js
+  failed assets           0
   Largest fetched assets:
       1840.9 KiB  image/png            https://idanstei.com/assets/img/Thermoaocustic_imaging.png
       1643.0 KiB  image/png            https://idanstei.com/assets/img/stanford_targeted_molecular_imaging.png
@@ -193,7 +192,7 @@ Timestamp (local runtime): 2026-08-16 12:42:25 UTC
 12. EXTERNAL LINKS
   unique external URLs    9
   OK    200 https://doi.org/10.1038/s41565-021-00869-5
-  CHECK 404 https://doi.org/10.1118/1.4901278
+  CHECK 403 https://doi.org/10.1118/1.4903277
   OK    200 https://doi.org/10.3390/diagnostics16050804
   OK    200 https://github.com/alshedivat/al-folio
   OK    200 https://jekyllrb.com/
@@ -209,7 +208,7 @@ SUMMARY
   HTML/internal crawled   6
   page-level findings     7
   broken internal         0
-  failed internal assets  1
+  failed internal assets  0
   external URLs checked   9
   external URLs to review 3
 
@@ -225,11 +224,8 @@ Page-level findings:
   - https://idanstei.com/thermoacoustic-imaging/: description long (167 chars)
   - https://idanstei.com/thermoacoustic-imaging/: no apple-touch-icon
 
-Broken internal assets:
-  - 404 https://idanstei.com/assets/al_cookie/js/cookie-theme-sync.js
-
 External links needing manual review (some sites block automated checks):
-  - 404 https://doi.org/10.1118/1.4901278 HTTP Error 404: Not Found
+  - 403 https://doi.org/10.1118/1.4903277 HTTP Error 403: Forbidden
   - 403 https://michiganross.umich.edu/programs/executive-education/accelerated-management-development-certificate HTTP Error 403: Forbidden
   - 403 https://scholar.google.com/citations?user=sosl-VsAAAAJ HTTP Error 403: Forbidden
 

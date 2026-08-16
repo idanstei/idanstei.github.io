@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-# About
+## About
 
 I’m an R&D executive and biomedical engineer with a background in medical imaging, acoustics, signal processing, and diagnostic medical device development.
 
@@ -33,7 +33,12 @@ Even as my responsibilities have broadened, I’ve remained closely engaged with
 
 ---
 
-**Explore:**  [Resume](/cv/) · [Thermoacoustics](/thermoacoustic-imaging/) · [Publications](/publications/)
+**Explore:** 
+<div class="about-explore-links">
+  <a href="/cv/">Resume</a>
+  <a href="/thermoacoustic-imaging/">Thermoacoustics</a>
+  <a href="/publications/">Publications</a>
+</div>
 
 ---
 
