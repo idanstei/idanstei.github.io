@@ -32,15 +32,14 @@ My career began close to the underlying technology, developing algorithms, imagi
 Even as my responsibilities have broadened, I’ve remained closely engaged with the technical work. I enjoy understanding the physics behind a system, figuring out why something is not working, and building the teams and development strategies needed to turn promising technology into something reliable, practical, and useful in the real world.
 
 
-**Explore:**
-
+---
 <div class="about-explore-links">
-<a href="/cv/">Resume</a>
-<a href="/thermoacoustic-imaging/">Thermoacoustics</a>
-<a href="/publications/">Publications</a>
-
+  <span class="explore-label">Explore:</span>
+  <a href="/cv/">Resume</a>
+  <a href="/thermoacoustic-imaging/">Thermoacoustics</a>
+  <a href="/publications/">Publications</a>
 </div>
-
+---
 
 ## What I want to work on
 
