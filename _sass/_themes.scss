@@ -279,15 +279,16 @@ html .social a[href="/cv/"]:hover::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2.5rem;
+  gap: 3rem;
   flex-wrap: wrap;
-  margin: 1.5rem 0;
+  margin: 1.25rem 0 2rem;
   text-align: center;
 }
 
 @media (max-width: 576px) {
   .about-explore-links {
     gap: 1rem 1.75rem;
+    margin-bottom: 1.5rem;
   }
 }
 
