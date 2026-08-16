@@ -295,4 +295,9 @@ html .social a[href="/cv/"]:hover::before {
   }
 }
 
+footer a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 /*! purgecss end ignore */
