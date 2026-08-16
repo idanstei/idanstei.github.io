@@ -33,7 +33,7 @@ Even as my responsibilities have broadened, I’ve remained closely engaged with
 
 ---
 
-**Explore:** [Resume](/cv/) · [Thermoacoustics](/thermoacoustic-imaging/) · [Publications](/publications/)
+**Explore:**  [Resume](/cv/) · [Thermoacoustics](/thermoacoustic-imaging/) · [Publications](/publications/)
 
 ---
 
