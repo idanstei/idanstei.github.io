@@ -226,7 +226,7 @@ If you are working on thermoacoustic imaging, molecular imaging, RF or acoustic 
    *Nature Nanotechnology*. 2021;16:717–724.
 
 3. Ogunlade O, Beard P.  
-   **[Exogenous contrast agents for thermoacoustic imaging: An investigation into the underlying sources of contrast.](https://doi.org/10.1118/1.4901278)**  
+   **[Exogenous contrast agents for thermoacoustic imaging: An investigation into the underlying sources of contrast.](https://doi.org/10.1118/1.4903277)**  
    *Medical Physics*. 2015;42(1):170–181.
 
 4. ENDRA Life Sciences.  

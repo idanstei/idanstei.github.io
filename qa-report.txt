@@ -1,0 +1,236 @@
+==============================================================================
+IDANSTEI.COM — PRODUCTION QA
+==============================================================================
+Timestamp (local runtime): 2026-08-16 12:42:25 UTC
+
+1. DOMAIN / REDIRECTS
+  200  http://idanstei.com/ -> http://idanstei.com/
+  200  https://idanstei.com/ -> https://idanstei.com/
+  200  http://www.idanstei.com/ -> http://idanstei.com/
+  200  https://www.idanstei.com/ -> https://idanstei.com/
+
+2. ROBOTS.TXT
+  status                  200 OK
+    User-agent: *
+    Disallow:
+    
+    Sitemap: https://idanstei.com/sitemap.xml
+
+3. SITEMAP.XML
+  status                  200 OK
+  URL count               5
+  https://idanstei.com/
+  https://idanstei.com/cv/
+  https://idanstei.com/people/  <-- UNEXPECTED
+  https://idanstei.com/publications/
+  https://idanstei.com/thermoacoustic-imaging/
+
+4. REMOVED AL-FOLIO ROUTES
+  PASS 404 https://idanstei.com/news/ -> https://idanstei.com/news/
+  PASS 404 https://idanstei.com/plugins/ -> https://idanstei.com/plugins/
+  CHECK 200 https://idanstei.com/people/ -> https://idanstei.com/people/
+  PASS 404 https://idanstei.com/blog/ -> https://idanstei.com/blog/
+  PASS 404 https://idanstei.com/projects/ -> https://idanstei.com/projects/
+  PASS 404 https://idanstei.com/repositories/ -> https://idanstei.com/repositories/
+  PASS 404 https://idanstei.com/teaching/ -> https://idanstei.com/teaching/
+  PASS 404 https://idanstei.com/books/ -> https://idanstei.com/books/
+
+5. SAME-ORIGIN CRAWL
+  200 https://idanstei.com/
+  200 https://idanstei.com/cv/
+  200 https://idanstei.com/people/
+  200 https://idanstei.com/publications/
+  200 https://idanstei.com/thermoacoustic-imaging/
+  200 https://idanstei.com/assets/pdf/Idan_Steinberg_Resume.pdf
+  Crawled HTML/internal URLs: 6
+
+6. PAGE-BY-PAGE SEO / ACCESSIBILITY
+
+  PAGE https://idanstei.com/
+  title                   Idan Steinberg
+  description             R&D executive and biomedical engineer specializing in medical imaging, ultrasound, acoustics, medical devices, clinical translation, and product development.
+  canonical               https://idanstei.com/
+  h1                      Idan Steinberg | About
+  lang                    en
+  viewport                width=device-width, initial-scale=1, shrink-to-fit=no
+  robots meta             (none; index/follow default)
+  og:title                Idan Steinberg | About
+  og:description          R&D executive and biomedical engineer specializing in medical imaging, ultrasound, acoustics, medical devices, clinical translation, and product development.
+  og:image                https://idanstei.com/assets/img/idan-steinberg-og.png
+  og:url                  https://idanstei.com/
+  twitter:card            summary
+  favicon                 data:image/svg+xml,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22><text%20y=%22.9em%22%20font-size=%2290%22>%E2%9A%95%EF%B8%8F</text></svg>
+  apple touch icon        (not detected)
+  JSON-LD blocks          1
+  images missing alt      0
+  same-origin incoming    5
+    ISSUES:
+      - h1 count=2
+      - no apple-touch-icon
+
+  PAGE https://idanstei.com/cv/
+  title                   Resume | Idan Steinberg
+  description             Executive R&D leadership in medical devices, imaging, clinical translation, and product development.
+  canonical               https://idanstei.com/cv/
+  h1                      Resume
+  lang                    en
+  viewport                width=device-width, initial-scale=1, shrink-to-fit=no
+  robots meta             (none; index/follow default)
+  og:title                Idan Steinberg | Resume
+  og:description          Executive R&D leadership in medical devices, imaging, clinical translation, and product development.
+  og:image                https://idanstei.com/assets/img/idan-steinberg-og.png
+  og:url                  https://idanstei.com/cv/
+  twitter:card            summary
+  favicon                 data:image/svg+xml,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22><text%20y=%22.9em%22%20font-size=%2290%22>%E2%9A%95%EF%B8%8F</text></svg>
+  apple touch icon        (not detected)
+  JSON-LD blocks          1
+  images missing alt      0
+  same-origin incoming    5
+    ISSUES:
+      - no apple-touch-icon
+
+  PAGE https://idanstei.com/people/
+  title                   people | Idan Steinberg
+  description             members of the lab or group
+  canonical               https://idanstei.com/people/
+  h1                      people
+  lang                    en
+  viewport                width=device-width, initial-scale=1, shrink-to-fit=no
+  robots meta             (none; index/follow default)
+  og:title                Idan Steinberg | people
+  og:description          members of the lab or group
+  og:image                https://idanstei.com/assets/img/idan-steinberg-og.png
+  og:url                  https://idanstei.com/people/
+  twitter:card            summary
+  favicon                 data:image/svg+xml,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22><text%20y=%22.9em%22%20font-size=%2290%22>%E2%9A%95%EF%B8%8F</text></svg>
+  apple touch icon        (not detected)
+  JSON-LD blocks          1
+  images missing alt      0
+  same-origin incoming    0
+    ISSUES:
+      - no apple-touch-icon
+
+  PAGE https://idanstei.com/publications/
+  title                   Publications | Idan Steinberg
+  description             Selected publications, patents, and related work spanning medical imaging, acoustics, molecular imaging, and clinical translation.
+  canonical               https://idanstei.com/publications/
+  h1                      Publications
+  lang                    en
+  viewport                width=device-width, initial-scale=1, shrink-to-fit=no
+  robots meta             (none; index/follow default)
+  og:title                Idan Steinberg | Publications
+  og:description          Selected publications, patents, and related work spanning medical imaging, acoustics, molecular imaging, and clinical translation.
+  og:image                https://idanstei.com/assets/img/idan-steinberg-og.png
+  og:url                  https://idanstei.com/publications/
+  twitter:card            summary
+  favicon                 data:image/svg+xml,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22><text%20y=%22.9em%22%20font-size=%2290%22>%E2%9A%95%EF%B8%8F</text></svg>
+  apple touch icon        (not detected)
+  JSON-LD blocks          1
+  images missing alt      0
+  same-origin incoming    5
+    ISSUES:
+      - no apple-touch-icon
+
+  PAGE https://idanstei.com/thermoacoustic-imaging/
+  title                   Thermoacoustics | Idan Steinberg
+  description             Thermoacoustic imaging for quantitative tissue characterization and accessible molecular imaging, spanning RF excitation, acoustic detection, and clinical translation.
+  canonical               https://idanstei.com/thermoacoustic-imaging/
+  h1                      Thermoacoustics
+  lang                    en
+  viewport                width=device-width, initial-scale=1, shrink-to-fit=no
+  robots meta             (none; index/follow default)
+  og:title                Idan Steinberg | Thermoacoustics
+  og:description          Thermoacoustic imaging for quantitative tissue characterization and accessible molecular imaging, spanning RF excitation, acoustic detection, and clinical translation.
+  og:image                https://idanstei.com/assets/img/taeus_clinical_workflow.png
+  og:url                  https://idanstei.com/thermoacoustic-imaging/
+  twitter:card            summary
+  favicon                 data:image/svg+xml,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22><text%20y=%22.9em%22%20font-size=%2290%22>%E2%9A%95%EF%B8%8F</text></svg>
+  apple touch icon        (not detected)
+  JSON-LD blocks          1
+  images missing alt      0
+  same-origin incoming    5
+    ISSUES:
+      - description long (167 chars)
+      - no apple-touch-icon
+
+7. INTERNAL LINK STATUS
+  internal targets        6
+  broken                  0
+  PASS: no broken internal targets found
+
+8. INTERNAL ASSETS
+  assets checked          31
+  failed assets           1
+  BROKEN 404 https://idanstei.com/assets/al_cookie/js/cookie-theme-sync.js
+  Largest fetched assets:
+      1840.9 KiB  image/png            https://idanstei.com/assets/img/Thermoaocustic_imaging.png
+      1643.0 KiB  image/png            https://idanstei.com/assets/img/stanford_targeted_molecular_imaging.png
+       435.3 KiB  image/png            https://idanstei.com/assets/img/taeus_clinical_workflow.png
+       427.3 KiB  image/png            https://idanstei.com/assets/img/Diagnossi_paper_Figure_4.png
+       185.4 KiB  image/jpeg           https://idanstei.com/assets/img/Idan_prof_pic.jpeg?v=3631fe827a9840970b12aaca2bb7e641
+        40.6 KiB  text/html            https://idanstei.com/cv/
+        32.2 KiB  text/html            https://idanstei.com/publications/
+        31.5 KiB  text/html            https://idanstei.com/thermoacoustic-imaging/
+        26.9 KiB  text/css             https://idanstei.com/assets/css/main.css?v=e272beb2a356f3d9abedbe97e457f5c2
+        23.7 KiB  application/javascript https://idanstei.com/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050
+
+9. PDF LINKS
+  200     PDF https://idanstei.com/assets/pdf/Idan_Steinberg_Resume.pdf [application/pdf]
+
+10. DUPLICATE METADATA
+  PASS: no duplicate titles/descriptions among crawled HTML pages
+
+11. DELIVERY / SECURITY HEADERS (homepage)
+  Strict-Transport-Security (not set)
+  Content-Security-Policy (not set)
+  X-Content-Type-Options  (not set)
+  Referrer-Policy         (not set)
+  Permissions-Policy      (not set)
+  Cache-Control           max-age=600
+  Content-Encoding        (not set)
+  Note: missing optional security headers are not automatically a launch blocker on GitHub Pages.
+
+12. EXTERNAL LINKS
+  unique external URLs    9
+  OK    200 https://doi.org/10.1038/s41565-021-00869-5
+  CHECK 404 https://doi.org/10.1118/1.4901278
+  OK    200 https://doi.org/10.3390/diagnostics16050804
+  OK    200 https://github.com/alshedivat/al-folio
+  OK    200 https://jekyllrb.com/
+  CHECK 403 https://michiganross.umich.edu/programs/executive-education/accelerated-management-development-certificate
+  OK    200 https://pages.github.com/
+  CHECK 403 https://scholar.google.com/citations?user=sosl-VsAAAAJ
+  OK    200 https://www.linkedin.com/in/idanstei/
+
+==============================================================================
+SUMMARY
+==============================================================================
+  sitemap URLs            5
+  HTML/internal crawled   6
+  page-level findings     7
+  broken internal         0
+  failed internal assets  1
+  external URLs checked   9
+  external URLs to review 3
+
+Unexpected sitemap URLs:
+  - https://idanstei.com/people/
+
+Page-level findings:
+  - https://idanstei.com/: h1 count=2
+  - https://idanstei.com/: no apple-touch-icon
+  - https://idanstei.com/cv/: no apple-touch-icon
+  - https://idanstei.com/people/: no apple-touch-icon
+  - https://idanstei.com/publications/: no apple-touch-icon
+  - https://idanstei.com/thermoacoustic-imaging/: description long (167 chars)
+  - https://idanstei.com/thermoacoustic-imaging/: no apple-touch-icon
+
+Broken internal assets:
+  - 404 https://idanstei.com/assets/al_cookie/js/cookie-theme-sync.js
+
+External links needing manual review (some sites block automated checks):
+  - 404 https://doi.org/10.1118/1.4901278 HTTP Error 404: Not Found
+  - 403 https://michiganross.umich.edu/programs/executive-education/accelerated-management-development-certificate HTTP Error 403: Forbidden
+  - 403 https://scholar.google.com/citations?user=sosl-VsAAAAJ HTTP Error 403: Forbidden
+
+Done.
