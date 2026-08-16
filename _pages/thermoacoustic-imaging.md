@@ -21,10 +21,13 @@ Thermoacoustics combines electromagnetic contrast with acoustic detection, offer
 ## What is thermoacoustic imaging?
 
 <div style="text-align: center;">
-  <img src="/assets/img/Thermoaocustic_imaging.png"
-       alt="Thermoacoustic imaging process diagram"
-       style="max-width: 100%; height: auto;">
-  <p><em>Thermoacoustic imaging uses RF excitation, electromagnetic absorption, thermoelastic expansion, acoustic detection, and image reconstruction.</em></p>
+  {% include figure.liquid
+     path="/assets/img/Thermoaocustic_imaging.png"
+     alt="Thermoacoustic imaging process diagram"
+     sizes="(max-width: 576px) 100vw, 930px"
+     loading="eager"
+  %}
+  <p><em>Overview of thermoacoustic imaging: RF excitation, absorption, thermoelastic expansion, acoustic detection, and image reconstruction.</em></p>
 </div>
 
 Thermoacoustic imaging uses short pulses of radiofrequency (RF) energy to excite tissue. Absorption of electromagnetic energy produces a very small, rapid temperature rise, resulting in thermoelastic expansion and the generation of a broadband acoustic transient.
@@ -72,10 +75,13 @@ Non-alcoholic fatty liver disease / metabolic dysfunction-associated steatotic l
 Thermoacoustics offers a different approach. Rather than relying on an acoustic surrogate for fat, it derives contrast from differences in the electromagnetic properties of lean and fatty tissue.
 
 <div style="text-align: center;">
-  <img src="/assets/img/taeus_clinical_workflow.png"
-       alt="Clinical thermoacoustic imaging workflow showing probe positioning, B-mode ultrasound, and thermoacoustic overlay"
-       style="max-width: 100%; height: auto;">
-  <p><em>Clinical thermoacoustic imaging workflow: probe positioning, anatomical B-mode ultrasound, and co-registered thermoacoustic signal overlay.</em></p>
+  {% include figure.liquid
+     path="/assets/img/taeus_clinical_workflow.png"
+     alt="TAEUS clinical workflow for liver fat assessment"
+     sizes="(max-width: 576px) 100vw, 930px"
+     loading="lazy"
+  %}
+  <p><em>Handheld thermoacoustic probe concept developed for liver fat assessment, combining RF transmission and ultrasound reception in a clinically oriented form factor.</em></p>
 </div>
 
 That transition matters to me: the technology begins to look less like a laboratory experiment and more like a practical imaging system.
@@ -95,9 +101,12 @@ A subsequent company-reported multi-site evaluation expanded the dataset to 64 s
 For me, the significance of this work extends beyond liver fat assessment. It demonstrated that thermoacoustics can progress from generating visually interesting images to providing repeatable, quantitative measurements in human subjects.
 
 <div style="text-align: center;">
-  <img src="/assets/img/Diagnossi_paper_Figure_4.png"
-       alt="Clinical evaluation of Thermoacoustic Fat Fraction (TAFF) against MRI-PDFF: Bland–Altman agreement, error distribution, and Deming regression"
-       style="max-width: 100%; height: auto;">
+  {% include figure.liquid
+     path="/assets/img/Diagnossi_paper_Figure_4.png"
+     alt="Clinical evaluation of Thermoacoustic Fat Fraction (TAFF) against MRI-PDFF: Bland–Altman agreement, error distribution, and Deming regression"
+     sizes="(max-width: 576px) 100vw, 930px"
+     loading="lazy"
+  %}
   <p><em>Clinical evaluation of Thermoacoustic Fat Fraction (TAFF) against MRI-PDFF: Bland–Altman agreement, error distribution, and Deming regression.</em></p>
 </div>
 
@@ -124,10 +133,13 @@ Later, while serving as Applied Science Leader at ENDRA Life Sciences, I provide
 For me, this creates a direct connection between two sides of the problem: developing the imaging instrument and exploring the molecular contrast that the instrument could eventually support.
 
 <div style="text-align: center;">
-  <img src="/assets/img/stanford_targeted_molecular_imaging.png"
-       alt="Targeted RF-acoustic molecular imaging using saline nanodroplets"
-       style="max-width: 100%; height: auto;">
-  <p><em>Targeted RF-acoustic molecular imaging: saline-loaded nanodroplet contrast agent, RF-acoustic imaging platform, and in vivo targeted tumor contrast. Adapted from Chen et al., <i>Nature Nanotechnology</i> (2021).</em></p>
+  {% include figure.liquid
+     path="/assets/img/stanford_targeted_molecular_imaging.png"
+     alt="Targeted radiofrequency-acoustic molecular imaging at Stanford"
+     sizes="(max-width: 576px) 100vw, 930px"
+     loading="lazy"
+  %}
+  <p><em>Targeted RF-acoustic molecular imaging work from Stanford, showing the transition from benign contrast media to molecularly targeted contrast.</em></p>
 </div>
 
 ---
@@ -219,15 +231,15 @@ If you are working on thermoacoustic imaging, molecular imaging, RF or acoustic 
 
 1. Cho JH, Bull CM, Thornton M, Gao J, Rubin JM, Steinberg I.  
    **[Thermoacoustic Ultrasound Assessment of Liver Steatosis—A Novel Approach for MASLD Diagnosis.](https://doi.org/10.3390/diagnostics16050804)**  
-   *Diagnostics*. 2026;16:804.
+   _Diagnostics_. 2026;16:804.
 
 2. Chen Y-S, Zhao Y, Beinat C, et al.  
    **[Ultra-High-Frequency-Radio-Frequency-Acoustic Molecular Imaging with Saline Nanodroplets in Living Subjects.](https://doi.org/10.1038/s41565-021-00869-5)**  
-   *Nature Nanotechnology*. 2021;16:717–724.
+   _Nature Nanotechnology_. 2021;16:717–724.
 
 3. Ogunlade O, Beard P.  
    **[Exogenous contrast agents for thermoacoustic imaging: An investigation into the underlying sources of contrast.](https://doi.org/10.1118/1.4903277)**  
-   *Medical Physics*. 2015;42(1):170–181.
+   _Medical Physics_. 2015;42(1):170–181.
 
 4. ENDRA Life Sciences.  
    **Multi-Site Validation of the TAEUS Liver Device Against MRI-PDFF.**  
