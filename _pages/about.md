@@ -33,11 +33,11 @@ Even as my responsibilities have broadened, I’ve remained closely engaged with
 
 ---
 
-**Explore:** 
-<div class="about-explore-links">
-  <a href="/cv/">Resume</a>
-  <a href="/thermoacoustic-imaging/">Thermoacoustics</a>
-  <a href="/publications/">Publications</a>
+**Explore:** <div class="about-explore-links">
+<a href="/cv/">Resume</a>
+<a href="/thermoacoustic-imaging/">Thermoacoustics</a>
+<a href="/publications/">Publications</a>
+
 </div>
 
 ---
