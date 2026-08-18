@@ -112,6 +112,30 @@ For me, the significance of this work extends beyond liver fat assessment. It de
 
 ---
 
+## Beyond liver fat: endogenous contrast as a platform
+
+Liver fat is an important early application, but it is not the only biological problem in which RF absorption can encode useful information. Tissue conductivity and permittivity depend on factors such as water, electrolyte, and lipid content, and thermoacoustic imaging becomes most valuable when those differences must be localized rather than measured only as a bulk property.
+
+One particularly interesting example is **blood**. Label-free thermoacoustic imaging of human blood vessels has already been demonstrated in vivo, showing that blood can provide useful endogenous RF-acoustic contrast without an injected agent. That observation opens a broader vascular direction: imaging vessels, hemorrhage, or perfused tissue in applications where spatial localization matters.
+
+A second direction is **therapy monitoring**. Microwave ablation already deposits RF energy in tissue at frequencies used for thermoacoustic excitation. Recent experimental work has combined thermoacoustic and ultrasound tomography to monitor microwave ablation, suggesting a natural division of labor: ultrasound provides anatomy and device position, while thermoacoustics provides information related to RF energy deposition and treatment-induced tissue changes.
+
+The opportunity can be viewed as a progression from demonstrated applications to research hypotheses:
+
+| Application family | What thermoacoustics could measure | Evidence today |
+| --- | --- | --- |
+| **Quantitative tissue composition** | Spatial differences in RF absorption associated with fat, water, and electrolytes | **Human quantitative validation:** liver fat assessment against MRI-PDFF |
+| **Vascular and perfusion imaging** | Blood as endogenous contrast relative to surrounding tissue | **Human feasibility demonstrated:** label-free vessel imaging; specific clinical indications still require validation |
+| **Microwave-ablation monitoring** | Spatial RF energy deposition and treatment-related tissue changes | **Experimental feasibility demonstrated:** combined thermoacoustic/ultrasound monitoring |
+| **Tissue injury and viability** | Changes in water, electrolytes, and dielectric properties associated with tissue damage or ischemia | **Application hypothesis:** promising physics, but application-specific thermoacoustic validation is still needed |
+| **Other composition-sensitive tissues** | Dielectric differences associated with tissue composition or pathology | **Exploratory:** potential targets include muscle composition and selected breast or thyroid applications |
+
+There is also an intermediate step between purely endogenous contrast and molecularly targeted probes. A simple conductivity-enhancing agent such as saline could, in principle, act as a dynamic tracer. If a conductivity perturbation can be followed in space and time, it could create new ways to study perfusion, vessel occlusion, or leakage. I view those as **research hypotheses rather than established clinical applications**, but they illustrate why a practical imaging platform could support applications beyond a single disease.
+
+The broader strategy is therefore not to wait for a molecular probe before building the modality. Start with endogenous or simple conductivity contrast where the measurement itself has value, establish a practical quantitative imaging system, and then give molecular-imaging researchers a platform on which increasingly specific contrast agents can be developed.
+
+---
+
 ## From tissue composition to molecular imaging
 
 Thermoacoustic imaging has less rich intrinsic biological contrast than optical photoacoustics. But that is different from saying that thermoacoustic contrast is restricted to the natural electromagnetic properties of tissue.
@@ -233,14 +257,22 @@ If you are working on thermoacoustic imaging, molecular imaging, RF or acoustic 
    **[Thermoacoustic Ultrasound Assessment of Liver Steatosis—A Novel Approach for MASLD Diagnosis.](https://doi.org/10.3390/diagnostics16050804)**  
    _Diagnostics_. 2026;16:804.
 
-2. Chen Y-S, Zhao Y, Beinat C, et al.  
+2. ENDRA Life Sciences.  
+   **Multi-Site Validation of the TAEUS Liver Device Against MRI-PDFF.**  
+   Company white paper, 2026.
+
+3. Zheng Z, Huang L, Jiang H.  
+   **[Label-free thermoacoustic imaging of human blood vessels in vivo.](https://doi.org/10.1063/1.5054652)**  
+   _Applied Physics Letters_. 2018;113:253702.
+
+4. Garrett DC, Aborahama Y, Xu J, Ku G, Wang LV.  
+   **[Microwave Ablation Monitoring Using Thermoacoustic and Ultrasound Tomography.](https://doi.org/10.1109/JMW.2025.3612329)**  
+   _IEEE Journal of Microwaves_. 2026;6(2):531–539.
+
+5. Chen Y-S, Zhao Y, Beinat C, et al.  
    **[Ultra-High-Frequency-Radio-Frequency-Acoustic Molecular Imaging with Saline Nanodroplets in Living Subjects.](https://doi.org/10.1038/s41565-021-00869-5)**  
    _Nature Nanotechnology_. 2021;16:717–724.
 
-3. Ogunlade O, Beard P.  
+6. Ogunlade O, Beard P.  
    **[Exogenous contrast agents for thermoacoustic imaging: An investigation into the underlying sources of contrast.](https://doi.org/10.1118/1.4903277)**  
    _Medical Physics_. 2015;42(1):170–181.
-
-4. ENDRA Life Sciences.  
-   **Multi-Site Validation of the TAEUS Liver Device Against MRI-PDFF.**  
-   Company white paper, 2026.
