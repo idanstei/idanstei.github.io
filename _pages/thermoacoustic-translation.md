@@ -32,9 +32,15 @@ That is encouraging, because the central issue is no longer simply whether biolo
 
 *This analysis reflects my personal view, based on publicly available information and published research through August 2026. It does not represent the position of any employer or company.*
 
-![Thermoacoustics across three translation tracks.](/assets/img/ta_translation_tracks.png)
+<figure style="margin: 2rem auto; max-width: 860px;">
+  <img
+    src="/assets/img/ta_translation_tracks.png"
+    alt="Thermoacoustics across three translation tracks"
+    style="display:block; width:100%; height:auto; margin:0 auto;"
+  >
+</figure>
 
-## Track 1 — Capability
+## Track 1: Capability
 
 For many years, the central question in thermoacoustics was whether useful RF-induced acoustic signals could be generated and reconstructed from biological tissue.
 
@@ -62,7 +68,7 @@ These results do **not** mean that a general-purpose clinical thermoacoustic sca
 
 For each application, the remaining capability questions are now different.
 
-## Track 2 — Economics
+## Track 2: Economics
 
 A technically successful imaging measurement does not automatically create a valuable product.
 
@@ -93,9 +99,9 @@ It must become something closer to:
 
 > **It provides sufficient incremental clinical or economic value to justify its use relative to alternatives available at the same point of care.**
 
-That is a much higher bar — but it is the right bar.
+That is a much higher bar - but it is the right bar.
 
-## Track 3 — Adoption
+## Track 3: Adoption
 
 Clinical adoption is its own engineering problem.
 
@@ -165,9 +171,15 @@ The ranking highlights an important distinction.
 
 Those are not the same question.
 
-![Thermoacoustic application strategy map.](/assets/img/ta_application_strategy_map.png)
+<figure style="margin: 2rem auto; max-width: 860px;">
+  <img
+    src="/assets/img/ta_application_strategy_map.png"
+    alt="Thermoacoustic application strategy map"
+    style="display:block; width:100%; height:auto; margin:0 auto;"
+  >
+</figure>
 
-## Application 1 — Quantitative liver fat
+## Application 1: Quantitative liver fat
 
 ### Why it is attractive
 
@@ -205,7 +217,7 @@ It should increasingly ask:
 
 > **In which patient or workflow does TA change the clinical or economic decision compared with what the customer can already buy?**
 
-## Application 2 — Microwave-ablation monitoring
+## Application 2: Microwave-ablation monitoring
 
 This is the application that moves up most sharply when the three tracks are considered together.
 
@@ -248,7 +260,7 @@ The major problem remains Track 1: the most compelling recent work is still prec
 
 If that capability is established, the economics and adoption tracks may be comparatively favorable.
 
-## Application 3 — Vascular and perfusion imaging
+## Application 3: Vascular and perfusion imaging
 
 Blood is an appealing endogenous RF contrast source.
 
@@ -281,7 +293,7 @@ In principle, that could create information about perfusion, obstruction, or lea
 
 At present, I regard this as a **research hypothesis**, not a clinical claim. A convincing business case requires first identifying the narrow vascular use case where the new information is valuable enough to displace or complement established imaging.
 
-## Application 4 — Burn depth and tissue viability
+## Application 4: Burn depth and tissue viability
 
 Burn injury and tissue compromise can alter water content, tissue structure, and dielectric properties in ways that may be detectable with thermoacoustics.
 
@@ -291,9 +303,9 @@ The clinical question is also meaningful. Burn depth and tissue viability can in
 
 The challenge is that the product would still need to outperform clinical examination and competing imaging or monitoring approaches strongly enough to justify its use. Patient contact, coupling, and workflow around injured tissue would also require careful product design.
 
-So this remains an interesting opportunity — but one that still needs targeted validation around a clearly defined clinical use case.
+So this remains an interesting opportunity - but one that still needs targeted validation around a clearly defined clinical use case.
 
-## Application 5 — Intracranial hemorrhage
+## Application 5: Intracranial hemorrhage
 
 This is the highest-risk, highest-upside application in the current list.
 
@@ -311,7 +323,7 @@ This is therefore not the application I would choose to establish thermoacoustic
 
 It is the application I would keep pursuing if the platform becomes mature enough to attack harder problems.
 
-## Application 6 — Molecular thermoacoustic imaging
+## Application 6: Molecular thermoacoustic imaging
 
 Molecular imaging is the longest-term objective that interests me most.
 
@@ -365,7 +377,7 @@ A thermoacoustic business would need more than ownership of the basic imaging co
 - RF delivery and field control that remain predictable across real patients;
 - transducer and acquisition architectures optimized for combined ultrasound and TA;
 - reconstruction, calibration, and quantitative models validated against clinical reference standards;
-- proprietary clinical datasets that define where the measurement works — and where it does not;
+- proprietary clinical datasets that define where the measurement works - and where it does not;
 - application-specific regulatory claims and reimbursement evidence;
 - workflow integration with the platform or procedure clinicians already use;
 - and manufacturing processes, RF safety measures, service procedures, and cost structure that are difficult to reproduce from an academic prototype.
@@ -420,7 +432,7 @@ It means that building a first product is a **business-system problem**, not onl
 
 If I were allocating development resources purely to learn which business path is strongest, I would run three parallel experiments.
 
-### 1. Liver — test differentiation, not only accuracy
+### 1. Liver - test differentiation, not only accuracy
 
 Benchmark TA prospectively against MRI-PDFF **and** leading point-of-care alternatives, with particular attention to the patients and longitudinal-use cases where current methods struggle.
 
@@ -428,7 +440,7 @@ The question becomes:
 
 > **Where does TA create incremental clinical value?**
 
-### 2. Ablation — test whether TA can predict the treatment boundary that matters clinically
+### 2. Ablation - test whether TA can predict the treatment boundary that matters clinically
 
 Move from elegant energy-deposition images toward a direct endpoint:
 
@@ -436,9 +448,9 @@ Move from elegant energy-deposition images toward a direct endpoint:
 
 If yes, the economic and adoption arguments become much stronger.
 
-### 3. Vascular — identify the application before optimizing the platform
+### 3. Vascular - identify the application before optimizing the platform
 
-Measure blood-to-background contrast, useful depth, spatial resolution, and robustness across 434 MHz, 915 MHz, and 2.45 GHz — but do it around specific clinical questions.
+Measure blood-to-background contrast, useful depth, spatial resolution, and robustness across 434 MHz, 915 MHz, and 2.45 GHz - but do it around specific clinical questions.
 
 The objective should not be to prove that TA can image blood.
 
@@ -467,7 +479,7 @@ If that first application succeeds, thermoacoustics can become more than a singl
 ## References
 
 1. Cho JH, Bull CM, Thornton M, Gao J, Rubin JM, Steinberg I.  
-   **[Thermoacoustic Ultrasound Assessment of Liver Steatosis—A Novel Approach for MASLD Diagnosis.](https://doi.org/10.3390/diagnostics16050804)**  
+   **[Thermoacoustic Ultrasound Assessment of Liver Steatosis-A Novel Approach for MASLD Diagnosis.](https://doi.org/10.3390/diagnostics16050804)**  
    _Diagnostics_. 2026;16:804.
 
 2. Zheng Z, Huang L, Jiang H.  
@@ -495,7 +507,7 @@ If that first application succeeds, thermoacoustics can become more than a singl
    See also Medtronic system documentation identifying the HP generator as a 150 W, 2.45 GHz source.
 
 8. U.S. Food and Drug Administration.  
-   **[BioTraceIO Precision — 510(k) K243084.](https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243084.pdf)**  
+   **[BioTraceIO Precision - 510(k) K243084.](https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243084.pdf)**  
    2025.
 
 9. Li J, Wu Z, Peng C, Song L, Luo Y.  
