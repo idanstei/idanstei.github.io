@@ -50,6 +50,7 @@ EXPECTED_PUBLIC = {
     "https://idanstei.com/cv/",
     "https://idanstei.com/publications/",
     "https://idanstei.com/thermoacoustic-imaging/",
+    "https://idanstei.com/thermoacoustic-translation/",
 }
 
 OLD_ROUTES = [

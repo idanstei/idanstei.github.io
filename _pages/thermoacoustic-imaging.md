@@ -134,6 +134,8 @@ There is also an intermediate step between purely endogenous contrast and molecu
 
 The broader strategy is therefore not to wait for a molecular probe before building the modality. Start with endogenous or simple conductivity contrast where the measurement itself has value, establish a practical quantitative imaging system, and then give molecular-imaging researchers a platform on which increasingly specific contrast agents can be developed.
 
+> **Which application should come first?** Technical feasibility is only one part of that decision. I examine the economics, workflow, adoption barriers, product architecture, and commercialization paths in a companion analysis: **[Translating Thermoacoustics →](/thermoacoustic-translation/)**
+
 ---
 
 ## From tissue composition to molecular imaging

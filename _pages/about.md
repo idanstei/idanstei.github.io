@@ -35,6 +35,7 @@ Even as my responsibilities have broadened, I’ve remained closely engaged with
   <span class="explore-label">Explore:</span>
   <a href="/cv/">Resume</a>
   <a href="/thermoacoustic-imaging/">Thermoacoustics</a>
+  <a href="/thermoacoustic-translation/">Translation Strategy</a>
   <a href="/publications/">Publications</a>
 </div>
  
@@ -61,5 +62,7 @@ I’ve spent much of my career at the intersection of physics, engineering, and 
 The physics has to work. The system has to work. The clinical question has to matter. And ultimately, the technology has to become something that can be manufactured, validated, and used beyond the laboratory.
 
 I enjoy working across those boundaries. Digging into difficult technical problems while building and leading multidisciplinary teams that translate promising technologies into medical products.
+
+That systems view also shapes how I evaluate emerging technologies: technical capability is necessary, but the economics and adoption path have to mature with it. [See how I apply that framework to thermoacoustics →](/thermoacoustic-translation/)
 
 **If you’re working on thermoacoustic imaging, molecular imaging, or another approach to making advanced medical imaging more accessible, I’d be very interested in hearing from you.**
