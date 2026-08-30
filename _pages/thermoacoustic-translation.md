@@ -35,7 +35,7 @@ That is encouraging, because the central issue is no longer simply whether biolo
 <figure style="margin: 2rem auto; max-width: 860px;">
   <img
     src="/assets/img/ta_translation_tracks.png"
-    alt="Thermoacoustics across three translation tracks"
+    alt="Three tracks of clinical translation. Thermoacoustics has advanced furthest along the capability track, while the economics and adoption required for broad clinical use remain less mature. Positions are conceptual rather than quantitative."
     style="display:block; width:100%; height:auto; margin:0 auto;"
   >
 </figure>
@@ -174,7 +174,7 @@ Those are not the same question.
 <figure style="margin: 2rem auto; max-width: 860px;">
   <img
     src="/assets/img/ta_application_strategy_map.png"
-    alt="Thermoacoustic application strategy map"
+    alt="Thermoacoustic application strategy map. Applications differ in both technical maturity and commercial readiness. Liver-fat assessment is the most technically de-risked application today, while microwave-ablation monitoring may offer stronger near-term alignment between technical capability, economics, and adoption. Molecular imaging remains a longer-term platform opportunity."
     style="display:block; width:100%; height:auto; margin:0 auto;"
   >
 </figure>
