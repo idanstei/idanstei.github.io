@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Translating Thermoacoustics
+title: Translation Strategy
 permalink: /thermoacoustic-translation/
-description: A technology and business analysis of thermoacoustic imaging through three clocks: technical capability, clinical economics, and adoption.
-nav: false
+description: "A technology and business analysis of thermoacoustic imaging through three clocks: technical capability, clinical economics, and adoption."
+nav: true
+nav_order: 4
 og_image: /assets/img/taeus_clinical_workflow.png
 ---
 
-My main [Thermoacoustics](/thermoacoustic-imaging/) page focuses on the physics, clinical evidence, and longer-term potential of the modality.
+My main [Thermoacoustics]({% link _pages/thermoacoustic-imaging.md %}) page focuses on the physics, clinical evidence, and longer-term potential of the modality.
 
 This page asks a different question:
 

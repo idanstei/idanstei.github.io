@@ -33,10 +33,10 @@ Even as my responsibilities have broadened, I’ve remained closely engaged with
 
 <div class="about-explore-links">
   <span class="explore-label">Explore:</span>
-  <a href="/cv/">Resume</a>
-  <a href="/thermoacoustic-imaging/">Thermoacoustics</a>
-  <a href="/thermoacoustic-translation/">Translation Strategy</a>
-  <a href="/publications/">Publications</a>
+  <a href="{% link _pages/cv.md %}">Resume</a>
+  <a href="{% link _pages/thermoacoustic-imaging.md %}">Thermoacoustics</a>
+  <a href="{% link _pages/thermoacoustic-translation.md %}">Translation Strategy</a>
+  <a href="{% link _pages/publications.md %}">Publications</a>
 </div>
  
 ## What I want to work on
@@ -53,7 +53,7 @@ That is a problem I want to work on.
 
 I believe thermoacoustic imaging offers one promising path toward that goal. My work at ENDRA strengthened my conviction that a practical, quantitative platform is possible.
 
-[Read more about why I believe in thermoacoustic imaging →](/thermoacoustic-imaging/)
+[Read more about why I believe in thermoacoustic imaging →]({% link _pages/thermoacoustic-imaging.md %})
 
 ## How I approach R&D
 
@@ -63,6 +63,6 @@ The physics has to work. The system has to work. The clinical question has to ma
 
 I enjoy working across those boundaries. Digging into difficult technical problems while building and leading multidisciplinary teams that translate promising technologies into medical products.
 
-That systems view also shapes how I evaluate emerging technologies: technical capability is necessary, but the economics and adoption path have to mature with it. [See how I apply that framework to thermoacoustics →](/thermoacoustic-translation/)
+That systems view also shapes how I evaluate emerging technologies: technical capability is necessary, but the economics and adoption path have to mature with it. [See how I apply that framework to thermoacoustics →]({% link _pages/thermoacoustic-translation.md %})
 
 **If you’re working on thermoacoustic imaging, molecular imaging, or another approach to making advanced medical imaging more accessible, I’d be very interested in hearing from you.**
