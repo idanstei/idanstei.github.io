@@ -5,16 +5,16 @@ permalink: /thermoacoustic-translation/
 description: "A technology and business analysis of thermoacoustic imaging through three translation tracks: capability, economics, and adoption."
 nav: true
 nav_order: 4
-og_image: /assets/img/taeus_clinical_workflow.png
+og_image: /assets/img/thermoacoustic_application_strategy_map.png
 ---
 
-The page dedicated to [Thermoacoustics]({% link _pages/thermoacoustic-imaging.md %}) focuses on the physics, the clinical evidence, and the long-term potential of the modality.
+The [Thermoacoustics]({% link _pages/thermoacoustic-imaging.md %}) page focuses on the physics, clinical evidence, and long-term potential of the modality.
 
 This page addresses a different question:
 
-## What must be in place for thermoacoustics to become a successful clinical technology and a viable business?
+## What must be in place for thermoacoustics to become both a successful clinical technology and a viable business?
 
-Emerging technologies can be evaluated along three translation tracks, which do not necessarily advance at the same speed:
+Emerging technologies can be evaluated across three translation tracks, which do not always advance at the same pace:
 
 | Track | Core question |
 | --- | --- |
@@ -22,25 +22,29 @@ Emerging technologies can be evaluated along three translation tracks, which do 
 | **Economics** | Does that information create enough value to justify the product, procedure, and business model? |
 | **Adoption** | Can clinicians, hospitals, regulators, payers, and industry partners realistically incorporate it into practice? |
 
-A technology can be scientifically impressive yet still fail commercially if one track remains far behind the others.
+A technology can be scientifically impressive and still fail commercially if one of these tracks remains far behind the others.
 
 **My current view is that thermoacoustics' capability track is substantially ahead of its economics and adoption tracks.**
 
-That is encouraging, because the central issue is no longer simply whether biological RF contrast exists. At the same time, it means that choosing the **first commercial application** may matter just as much as the underlying imaging technology.
+That is encouraging, because the central question is no longer simply whether biological RF contrast exists. At the same time, it means that choosing the **first commercial application** may matter just as much as the underlying imaging technology.
 
 > **The best first application for a new imaging modality is not necessarily the one with the greatest scientific potential. It is the one in which technical capability, clinical economics, and adoption can mature together.**
 
 *This analysis reflects my personal view, based on publicly available information and published research through August 2026. It does not represent the position of any employer or company.*
 
-<figure style="margin: 2rem auto; max-width: 860px;">
-  <img
-    src="/assets/img/ta_translation_tracks.png"
-    alt="Three tracks of clinical translation. Thermoacoustics has advanced furthest along the capability track, while the economics and adoption required for broad clinical use remain less mature. Positions are conceptual rather than quantitative."
-    style="display:block; width:100%; height:auto; margin:0 auto;"
-  >
-</figure>
+<div style="text-align: center;">
+  {% include figure.liquid
+     path="/assets/img/three_tracks_of_clinical_translation.png"
+     alt="Three tracks of clinical translation for thermoacoustics: capability, economics, and adoption"
+     sizes="(max-width: 576px) 100vw, 930px"
+     loading="lazy"
+  %}
+  <p><em>Three tracks of clinical translation. Thermoacoustics has advanced furthest along the capability track, while the economics and adoption required for broad clinical use remain less mature. Positions are conceptual rather than quantitative.</em></p>
+</div>
 
-## Track 1: Capability
+---
+
+## Track 1 — Capability
 
 For many years, the central question in thermoacoustics was whether useful RF-induced acoustic signals could be generated and reconstructed from biological tissue.
 
@@ -64,15 +68,17 @@ At the molecular-imaging end of the spectrum, targeted hypertonic-saline nanodro
 
 These results do **not** mean that a general-purpose clinical thermoacoustic scanner is already mature. They mean something more specific:
 
-> **The modality has progressed from “interesting physics” to application-driven translational engineering.**
+> **The modality has advanced from "interesting physics" to application-driven translational engineering.**
 
 For each application, the remaining capability questions are now different.
 
-## Track 2: Economics
+---
+
+## Track 2 — Economics
 
 A technically successful imaging measurement does not automatically create a valuable product.
 
-The customer does not buy “thermoacoustics.” The customer buys an answer:
+The customer does not buy "thermoacoustics." The customer buys an answer:
 
 - How much fat is in this liver?
 - Did the ablation cover the entire tumor with an adequate margin?
@@ -99,9 +105,11 @@ It must become something closer to:
 
 > **It provides sufficient incremental clinical or economic value to justify its use relative to alternatives available at the same point of care.**
 
-That is a much higher bar - but it is the right bar.
+That is a much higher bar, but it is the right bar.
 
-## Track 3: Adoption
+---
+
+## Track 3 — Adoption
 
 Clinical adoption is its own engineering problem.
 
@@ -120,7 +128,7 @@ Adoption depends on issues such as:
 - clinical guidelines and professional-society acceptance;
 - and the amount of new capital equipment a customer must purchase.
 
-This is one reason I believe **ultrasound integration is strategically important**.
+This is one reason I believe **integration with conventional ultrasound could be strategically important**.
 
 Rather than asking a clinician to learn an entirely new imaging modality from scratch, a combined workflow can use:
 
@@ -138,30 +146,34 @@ With a new medical-imaging technology, there is usually not just one customer or
 
 | Stakeholder | What they need to believe |
 | --- | --- |
-| **Clinician / operator** | The information is useful, trustworthy, and does not make the workflow harder |
-| **Patient** | The examination or procedure is safe, tolerable, and provides meaningful benefit |
-| **Department / hospital** | The system fits staffing, space, throughput, service, and capital constraints |
-| **Payer / health system** | The measurement improves outcomes or reduces downstream cost enough to justify payment |
-| **Regulator** | The claimed use is supported by appropriate safety and performance evidence |
-| **Commercial partner / OEM** | The capability strengthens an existing platform or procedure enough to justify integration |
-| **Investor / manufacturer** | The market is large enough, margins are credible, and the path to scale is financeable |
+| **Clinician / operator** | The information is useful, trustworthy, and does not make the workflow harder. |
+| **Patient** | The examination or procedure is safe, tolerable, and provides meaningful benefit. |
+| **Department / hospital** | The system fits staffing, space, throughput, service, and capital constraints. |
+| **Payer / health system** | The measurement improves outcomes or reduces downstream cost enough to justify payment. |
+| **Regulator** | The claimed use is supported by appropriate safety and performance evidence. |
+| **Commercial partner / OEM** | The capability strengthens an existing platform or procedure enough to justify integration. |
+| **Investor / manufacturer** | The market is large enough, margins are credible, and the path to scale is financeable. |
 
-A product can fail if any one of the critical links in that chain remains unresolved. That is why the same basic TA physics can lead to very different commercial prospects across liver diagnostics, interventional oncology, vascular imaging, and molecular imaging.
+A product can fail if any critical link in that chain remains unresolved. That is why the same basic TA physics can lead to very different commercial prospects across liver diagnostics, interventional oncology, vascular imaging, and molecular imaging.
+
+---
 
 ## Each application has its own maturity profile
 
-There is no single maturity level for “thermoacoustics.” Each application has its own profile across the three tracks.
+There is no single maturity level for "thermoacoustics." Each application has its own profile across the three tracks.
 
 The scores below are **qualitative assessments**, not market-size estimates or clinical claims. A score of 5 means that the relevant track is comparatively mature; a score of 1 means that it remains largely conceptual.
 
-| Application | Capability | Economics | Adoption | Current business interpretation |
-| --- | :---: | :---: | :---: | --- |
-| **Fatty liver / MASLD** | **5/5** | **3/5** | **3/5** | Most technically de-risked TA application, but it must differentiate against FibroScan and quantitative ultrasound |
-| **Microwave-ablation monitoring** | **3.5/5** | **4.5/5** | **4/5** | Potentially the strongest three-track convergence because TA can attach directly to an existing RF-therapy workflow |
-| **Deep vascular / perfusion imaging** | **2.5/5** | **4/5 potential** | **2.5/5** | Large opportunity only if a specific deep-tissue problem is found where current vascular imaging is inadequate |
-| **Burn depth / tissue viability** | **2/5** | **3.5/5** | **3/5** | Attractive point-of-care geometry and decision problem; application-specific TA validation remains early |
-| **Intracranial hemorrhage** | **2/5** | **5/5 potential** | **2/5** | Very high clinical value, but the skull and prehospital performance requirements make this a moonshot |
-| **Targeted molecular imaging** | **2/5** | **2/5** | **1/5** | Long-term platform destination; device and contrast-agent ecosystems would have to mature together |
+Importantly, **commercial readiness and ultimate potential are not the same thing**. An application may have enormous clinical and economic upside while still being far from a viable product.
+
+| Application | Capability | Economics readiness | Adoption | Potential upside | Current business interpretation |
+| --- | :---: | :---: | :---: | :---: | --- |
+| **Fatty liver / MASLD** | **5/5** | **3/5** | **3/5** | **High** | Most technically de-risked TA application, but it must differentiate against FibroScan and quantitative ultrasound. |
+| **Microwave-ablation monitoring** | **3.5/5** | **4/5** | **4/5** | **High** | Potentially the strongest three-track convergence because TA can attach directly to an existing RF-therapy workflow. |
+| **Deep vascular / perfusion imaging** | **2.5/5** | **2.5–3/5** | **2.5/5** | **Very high** | Large opportunity only if a specific deep-tissue problem is found where current vascular imaging is inadequate. |
+| **Burn depth / tissue viability** | **2/5** | **2.5–3/5** | **3/5** | **Moderate–high** | Attractive point-of-care geometry and decision problem; application-specific TA validation remains early. |
+| **Intracranial hemorrhage** | **2/5** | **2/5** | **2/5** | **Exceptional** | Very high clinical and economic potential, but the skull and prehospital performance requirements make this a moonshot. |
+| **Targeted molecular imaging** | **2/5** | **1–2/5** | **1/5** | **Very high long-term** | Long-term platform destination; device and contrast-agent ecosystems would have to mature together. |
 
 The ranking highlights an important distinction.
 
@@ -171,15 +183,21 @@ The ranking highlights an important distinction.
 
 Those are not the same question.
 
-<figure style="margin: 2rem auto; max-width: 860px;">
-  <img
-    src="/assets/img/ta_application_strategy_map.png"
-    alt="Thermoacoustic application strategy map. Applications differ in both technical maturity and commercial readiness. Liver-fat assessment is the most technically de-risked application today, while microwave-ablation monitoring may offer stronger near-term alignment between technical capability, economics, and adoption. Molecular imaging remains a longer-term platform opportunity."
-    style="display:block; width:100%; height:auto; margin:0 auto;"
-  >
-</figure>
+The strategy map below summarizes this distinction. **Technical maturity** reflects the capability track, while **commercial readiness** is a qualitative synthesis of economics and adoption. The positions are conceptual rather than quantitatively derived.
 
-## Application 1: Quantitative liver fat
+<div style="text-align: center;">
+  {% include figure.liquid
+     path="/assets/img/thermoacoustic_application_strategy_map.png"
+     alt="Thermoacoustic application strategy map showing technical maturity and commercial readiness"
+     sizes="(max-width: 576px) 100vw, 900px"
+     loading="lazy"
+  %}
+  <p><em>Thermoacoustic application strategy map. Liver-fat assessment is the most technically de-risked application today, while microwave-ablation monitoring may offer stronger near-term alignment among capability, economics, and adoption. Molecular imaging remains a longer-term platform opportunity.</em></p>
+</div>
+
+---
+
+## Application 1 — Quantitative liver fat
 
 ### Why it is attractive
 
@@ -211,13 +229,15 @@ Examples of questions worth testing include:
 - Can it combine liver-fat measurement with conventional ultrasound anatomy in a single workflow?
 - Can it improve subject selection or response monitoring in metabolic-drug trials?
 
-The first commercially meaningful liver-fat study should therefore not only ask, **“Does TA correlate with MRI-PDFF?”**
+The first commercially meaningful liver-fat study should therefore not only ask, **"Does TA correlate with MRI-PDFF?"**
 
 It should increasingly ask:
 
 > **In which patient or workflow does TA change the clinical or economic decision compared with what the customer can already buy?**
 
-## Application 2: Microwave-ablation monitoring
+---
+
+## Application 2 — Microwave-ablation monitoring
 
 This is the application that moves up most sharply when the three tracks are considered together.
 
@@ -245,14 +265,9 @@ The clinical value of avoiding an incomplete treatment or inadequate margin is i
 
 This creates several possible business models:
 
-**OEM integration**  
-TA becomes a monitoring capability built into an existing microwave-ablation platform.
-
-**Premium generator / imaging module**  
-TA is sold as an additional system capability associated with the procedure.
-
-**Closed-loop treatment system**  
-Longer term, TA-derived energy maps inform adaptive control of microwave power or treatment duration.
+- **OEM integration** — TA becomes a monitoring capability built into an existing microwave-ablation platform.
+- **Premium generator / imaging module** — TA is sold as an additional system capability associated with the procedure.
+- **Closed-loop treatment system** — longer term, TA-derived energy maps inform adaptive control of microwave power or treatment duration.
 
 All three approaches may have less adoption friction than asking a hospital to create an entirely new diagnostic workflow.
 
@@ -260,7 +275,9 @@ The major problem remains Track 1: the most compelling recent work is still prec
 
 If that capability is established, the economics and adoption tracks may be comparatively favorable.
 
-## Application 3: Vascular and perfusion imaging
+---
+
+## Application 3 — Vascular and perfusion imaging
 
 Blood is an appealing endogenous RF contrast source.
 
@@ -270,7 +287,7 @@ That is scientifically meaningful, but it is not yet a business case.
 
 Doppler ultrasound, CTA, MRA, and catheter angiography already solve many vascular problems very well.
 
-So “thermoacoustic angiography” is too broad.
+So "thermoacoustic angiography" is too broad.
 
 The commercial question is:
 
@@ -293,9 +310,11 @@ In principle, that could create information about perfusion, obstruction, or lea
 
 At present, I regard this as a **research hypothesis**, not a clinical claim. A convincing business case requires first identifying the narrow vascular use case where the new information is valuable enough to displace or complement established imaging.
 
-## Application 4: Burn depth and tissue viability
+---
 
-Burn injury and tissue compromise can alter water content, tissue structure, and dielectric properties in ways that may be detectable with thermoacoustics.
+## Application 4 — Burn depth and tissue viability
+
+Burn injury and tissue compromise can alter water content, tissue structure, and dielectric properties in ways that may provide useful RF contrast.[10]
 
 From a translation standpoint, this application has an attractive geometry: the target is usually superficial, which reduces the depth and RF-field challenges that make some other applications more difficult.
 
@@ -303,9 +322,11 @@ The clinical question is also meaningful. Burn depth and tissue viability can in
 
 The challenge is that the product would still need to outperform clinical examination and competing imaging or monitoring approaches strongly enough to justify its use. Patient contact, coupling, and workflow around injured tissue would also require careful product design.
 
-So this remains an interesting opportunity - but one that still needs targeted validation around a clearly defined clinical use case.
+So this remains an interesting opportunity, but one that still needs targeted validation around a clearly defined clinical use case.
 
-## Application 5: Intracranial hemorrhage
+---
+
+## Application 5 — Intracranial hemorrhage
 
 This is the highest-risk, highest-upside application in the current list.
 
@@ -313,17 +334,19 @@ Preclinical work has demonstrated detection of intracerebral hemorrhage in large
 
 The potential clinical value is obvious: a portable method capable of detecting or localizing hemorrhage before CT could matter in ambulances, rural emergency departments, military medicine, sports medicine, and other settings where time-to-imaging is long.
 
-That gives the application a very strong **economics track**.
+That creates **potentially enormous clinical and economic value**, but commercial readiness remains early.
 
-But the capability and adoption tracks are much further behind.
+The capability and adoption tracks are also much further behind.
 
-A useful product would have to perform reliably through the skull, across anatomy, rapidly, with very high sensitivity and specificity, in an environment where false reassurance could be dangerous.
+A useful product would have to perform reliably through the skull, across anatomy, rapidly, and with very high sensitivity and specificity, in an environment where false reassurance could be dangerous.
 
 This is therefore not the application I would choose to establish thermoacoustics commercially.
 
 It is the application I would keep pursuing if the platform becomes mature enough to attack harder problems.
 
-## Application 6: Molecular thermoacoustic imaging
+---
+
+## Application 6 — Molecular thermoacoustic imaging
 
 Molecular imaging is the longest-term objective that interests me most.
 
@@ -337,9 +360,7 @@ An imaging platform is difficult to build around an agent that does not yet have
 
 The business burden therefore includes both:
 
-**device development**  
-and  
-**contrast-agent development**
+**device development + contrast-agent development**
 
 with separate manufacturing, regulatory, clinical, and reimbursement challenges.
 
@@ -351,6 +372,8 @@ A successful endogenous-contrast application can create:
 
 That sequence can move the molecular-imaging tracks far more effectively than attempting to develop the device and molecular-agent ecosystems simultaneously from zero.
 
+---
+
 ## The product architecture matters
 
 The business model is not independent of the hardware architecture.
@@ -359,10 +382,10 @@ I see four plausible commercialization paths.
 
 | Product model | Advantage | Main disadvantage | Strategic fit |
 | --- | --- | --- | --- |
-| **Standalone TA diagnostic system** | Full control of product and workflow | Highest capital, training, regulatory, sales, and reimbursement burden | Best only if TA solves a problem no existing platform can address |
-| **Ultrasound + TA platform** | Familiar anatomy and workflow; complementary information | Requires careful system integration and a clear reason to add TA | Strong for liver, vascular, and broader platform development |
-| **Therapy-integrated TA** | Attaches to an existing procedure, energy source, buyer, and clinical need | Dependent on therapy-device partners and application-specific validation | Particularly attractive for microwave ablation |
-| **Research / molecular-imaging platform** | Lower initial clinical-adoption burden and can seed an ecosystem | Smaller near-term market and still requires a compelling research community | Strong bridge toward future contrast agents |
+| **Standalone TA diagnostic system** | Full control of product and workflow | Highest capital, training, regulatory, sales, and reimbursement burden | Best only if TA solves a problem no existing platform can address. |
+| **Ultrasound + TA platform** | Familiar anatomy and workflow; complementary information | Requires careful system integration and a clear reason to add TA | Strong for liver, vascular, and broader platform development. |
+| **Therapy-integrated TA** | Attaches to an existing procedure, energy source, buyer, and clinical need | Dependent on therapy-device partners and application-specific validation | Particularly attractive for microwave ablation. |
+| **Research / molecular-imaging platform** | Lower initial clinical-adoption burden and can seed an ecosystem | Smaller near-term market and still requires a compelling research community | Strong bridge toward future contrast agents. |
 
 This leads to a broader business lesson:
 
@@ -370,21 +393,29 @@ This leads to a broader business lesson:
 
 It may be much easier for thermoacoustics to enter as a **capability inside a workflow that clinicians already understand**.
 
+---
+
 ## Where durable defensibility would come from
 
-A thermoacoustic business would need more than ownership of the basic imaging concept. The strongest moat would probably be system-level and application-specific:
+A thermoacoustic business would need more than ownership of the basic imaging concept.
+
+The strongest **durable advantage** would probably be system-level and application-specific:
 
 - RF delivery and field control that remain predictable across real patients;
 - transducer and acquisition architectures optimized for combined ultrasound and TA;
 - reconstruction, calibration, and quantitative models validated against clinical reference standards;
-- proprietary clinical datasets that define where the measurement works - and where it does not;
+- proprietary clinical datasets that define where the measurement works and where it does not;
 - application-specific regulatory claims and reimbursement evidence;
 - workflow integration with the platform or procedure clinicians already use;
 - and manufacturing processes, RF safety measures, service procedures, and cost structure that are difficult to reproduce from an academic prototype.
 
-In other words, the defensible asset is not merely the signal. It is the validated system that turns that signal into a reliable decision.
+In other words:
 
-That distinction matters strategically, because it suggests that a startup may need to retain control of key quantitative expertise while partnering for ultrasound, therapy hardware, distribution, or contrast-agent development rather than trying to own every part of the value chain.
+> **The defensible asset is not merely the signal. It is the validated system that turns that signal into a reliable decision.**
+
+That distinction matters strategically. A company may need to retain control of key quantitative and systems expertise while partnering for ultrasound, therapy hardware, distribution, or contrast-agent development rather than trying to own every part of the value chain.
+
+---
 
 ## A commercial wedge should pass seven tests
 
@@ -404,35 +435,39 @@ The first customer needs a narrow, concrete answer.
 
 > **Sell the clinical answer first. Build the platform underneath it.**
 
+---
+
 ## My current strategic ranking
 
 If the objective is **technical de-risking**, I would rank the applications:
 
-1. Liver fat  
-2. Microwave-ablation monitoring  
-3. Vascular/perfusion imaging  
-4. Burn/tissue viability  
-5. Intracranial hemorrhage  
+1. Liver fat
+2. Microwave-ablation monitoring
+3. Vascular/perfusion imaging
+4. Burn/tissue viability
+5. Intracranial hemorrhage
 6. Molecular imaging
 
-If the objective is instead **which application could synchronize the three tracks fastest**, my ranking changes:
+If the objective is instead to identify **which application could synchronize the three tracks fastest**, my ranking changes:
 
-1. Microwave-ablation monitoring  
-2. Liver fat  
-3. A yet-to-be-defined deep vascular or perfusion indication  
-4. Burn/tissue viability  
-5. Intracranial hemorrhage  
+1. Microwave-ablation monitoring
+2. Liver fat
+3. A yet-to-be-defined deep vascular or perfusion indication
+4. Burn/tissue viability
+5. Intracranial hemorrhage
 6. Molecular imaging
 
 That does **not** mean that microwave ablation is more technically mature than liver fat. It is not.
 
 It means that building a first product is a **business-system problem**, not only an imaging-physics problem.
 
+---
+
 ## Next steps for evaluation
 
 If I were allocating development resources purely to learn which business path is strongest, I would run three parallel experiments.
 
-### 1. Liver - test differentiation, not only accuracy
+### 1. Liver — test differentiation, not only accuracy
 
 Benchmark TA prospectively against MRI-PDFF **and** leading point-of-care alternatives, with particular attention to the patients and longitudinal-use cases where current methods struggle.
 
@@ -440,7 +475,7 @@ The question becomes:
 
 > **Where does TA create incremental clinical value?**
 
-### 2. Ablation - test whether TA can predict the treatment boundary that matters clinically
+### 2. Ablation — test whether TA can predict the treatment boundary that matters clinically
 
 Move from elegant energy-deposition images toward a direct endpoint:
 
@@ -448,13 +483,15 @@ Move from elegant energy-deposition images toward a direct endpoint:
 
 If yes, the economic and adoption arguments become much stronger.
 
-### 3. Vascular - identify the application before optimizing the platform
+### 3. Vascular — identify the application before optimizing the platform
 
-Measure blood-to-background contrast, useful depth, spatial resolution, and robustness across 434 MHz, 915 MHz, and 2.45 GHz - but do it around specific clinical questions.
+Measure blood-to-background contrast, useful depth, spatial resolution, and robustness across 434 MHz, 915 MHz, and 2.45 GHz — but do it around specific clinical questions.
 
 The objective should not be to prove that TA can image blood.
 
 It should be to identify a vascular decision for which TA has **a distinct advantage grounded in the physics of the modality**.
+
+---
 
 ## The broader opportunity
 
@@ -464,9 +501,9 @@ The ones that succeeded typically solved a valuable problem, fit a real workflow
 
 That is the lens through which I now view thermoacoustics.
 
-The underlying physics is increasingly well established.
+**The underlying physics is well established.**
 
-Clinical evidence is beginning to emerge.
+**Clinical evidence is now emerging in specific applications.**
 
 The next challenge is to find the application in which capability, economics, and adoption can advance together.
 
@@ -476,10 +513,12 @@ If that first application succeeds, thermoacoustics can become more than a singl
 
 [← Return to the science, clinical evidence, and long-term vision for thermoacoustic imaging.]({% link _pages/thermoacoustic-imaging.md %})
 
+---
+
 ## References
 
 1. Cho JH, Bull CM, Thornton M, Gao J, Rubin JM, Steinberg I.  
-   **[Thermoacoustic Ultrasound Assessment of Liver Steatosis-A Novel Approach for MASLD Diagnosis.](https://doi.org/10.3390/diagnostics16050804)**  
+   **[Thermoacoustic Ultrasound Assessment of Liver Steatosis—A Novel Approach for MASLD Diagnosis.](https://doi.org/10.3390/diagnostics16050804)**  
    _Diagnostics_. 2026;16:804.
 
 2. Zheng Z, Huang L, Jiang H.  
@@ -507,11 +546,15 @@ If that first application succeeds, thermoacoustics can become more than a singl
    See also Medtronic system documentation identifying the HP generator as a 150 W, 2.45 GHz source.
 
 8. U.S. Food and Drug Administration.  
-   **[BioTraceIO Precision - 510(k) K243084.](https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243084.pdf)**  
+   **[BioTraceIO Precision — 510(k) K243084.](https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243084.pdf)**  
    2025.
 
 9. Li J, Wu Z, Peng C, Song L, Luo Y.  
    **[Microwave-induced thermoacoustic imaging for the early detection of canine intracerebral hemorrhage.](https://doi.org/10.3389/fphys.2022.1067948)**  
    _Frontiers in Physiology_. 2022;13:1067948.
 
-10. **[Three-clock framework that inspired this analysis.](https://youtu.be/KJxfSIvv920)**
+10. **Dielectric Characterization and Statistical Analysis of Ex-Vivo Burnt Human Skin Samples for Microwave Sensor Development.**  
+    _IEEE Access_. 2023.  
+    **[https://doi.org/10.1109/ACCESS.2023.3234185](https://doi.org/10.1109/ACCESS.2023.3234185)**
+
+11. **[Three-track framework adapted from the three-clock technology-translation framework discussed here.](https://youtu.be/KJxfSIvv920)**
