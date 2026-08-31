@@ -44,7 +44,7 @@ That is encouraging, because the central question is no longer simply whether bi
 
 ---
 
-## Track 1 — Capability
+## Track 1: Capability
 
 For many years, the central question in thermoacoustics was whether useful RF-induced acoustic signals could be generated and reconstructed from biological tissue.
 
@@ -74,7 +74,7 @@ For each application, the remaining capability questions are now different.
 
 ---
 
-## Track 2 — Economics
+## Track 2: Economics
 
 A technically successful imaging measurement does not automatically create a valuable product.
 
@@ -109,7 +109,7 @@ That is a much higher bar, but it is the right bar.
 
 ---
 
-## Track 3 — Adoption
+## Track 3: Adoption
 
 Clinical adoption is its own engineering problem.
 
@@ -197,7 +197,7 @@ The strategy map below summarizes this distinction. **Technical maturity** refle
 
 ---
 
-## Application 1 — Quantitative liver fat
+## Application 1 - Quantitative liver fat
 
 ### Why it is attractive
 
@@ -237,7 +237,7 @@ It should increasingly ask:
 
 ---
 
-## Application 2 — Microwave-ablation monitoring
+## Application 2 - Microwave-ablation monitoring
 
 This is the application that moves up most sharply when the three tracks are considered together.
 
@@ -265,9 +265,9 @@ The clinical value of avoiding an incomplete treatment or inadequate margin is i
 
 This creates several possible business models:
 
-- **OEM integration** — TA becomes a monitoring capability built into an existing microwave-ablation platform.
-- **Premium generator / imaging module** — TA is sold as an additional system capability associated with the procedure.
-- **Closed-loop treatment system** — longer term, TA-derived energy maps inform adaptive control of microwave power or treatment duration.
+- **OEM integration:** TA becomes a monitoring capability built into an existing microwave-ablation platform.
+- **Premium generator / imaging module:** TA is sold as an additional system capability associated with the procedure.
+- **Closed-loop treatment system:** longer term, TA-derived energy maps inform adaptive control of microwave power or treatment duration.
 
 All three approaches may have less adoption friction than asking a hospital to create an entirely new diagnostic workflow.
 
@@ -277,7 +277,7 @@ If that capability is established, the economics and adoption tracks may be comp
 
 ---
 
-## Application 3 — Vascular and perfusion imaging
+## Application 3 - Vascular and perfusion imaging
 
 Blood is an appealing endogenous RF contrast source.
 
@@ -312,7 +312,7 @@ At present, I regard this as a **research hypothesis**, not a clinical claim. A 
 
 ---
 
-## Application 4 — Burn depth and tissue viability
+## Application 4 - Burn depth and tissue viability
 
 Burn injury and tissue compromise can alter water content, tissue structure, and dielectric properties in ways that may provide useful RF contrast.[10]
 
@@ -326,7 +326,7 @@ So this remains an interesting opportunity, but one that still needs targeted va
 
 ---
 
-## Application 5 — Intracranial hemorrhage
+## Application 5 - Intracranial hemorrhage
 
 This is the highest-risk, highest-upside application in the current list.
 
@@ -346,7 +346,7 @@ It is the application I would keep pursuing if the platform becomes mature enoug
 
 ---
 
-## Application 6 — Molecular thermoacoustic imaging
+## Application 6 - Molecular thermoacoustic imaging
 
 Molecular imaging is the longest-term objective that interests me most.
 
@@ -467,7 +467,7 @@ It means that building a first product is a **business-system problem**, not onl
 
 If I were allocating development resources purely to learn which business path is strongest, I would run three parallel experiments.
 
-### 1. Liver — test differentiation, not only accuracy
+### 1. Liver: test differentiation, not only accuracy
 
 Benchmark TA prospectively against MRI-PDFF **and** leading point-of-care alternatives, with particular attention to the patients and longitudinal-use cases where current methods struggle.
 
@@ -475,7 +475,7 @@ The question becomes:
 
 > **Where does TA create incremental clinical value?**
 
-### 2. Ablation — test whether TA can predict the treatment boundary that matters clinically
+### 2. Ablation: test whether TA can predict the treatment boundary that matters clinically
 
 Move from elegant energy-deposition images toward a direct endpoint:
 
@@ -483,9 +483,9 @@ Move from elegant energy-deposition images toward a direct endpoint:
 
 If yes, the economic and adoption arguments become much stronger.
 
-### 3. Vascular — identify the application before optimizing the platform
+### 3. Vascular: identify the application before optimizing the platform
 
-Measure blood-to-background contrast, useful depth, spatial resolution, and robustness across 434 MHz, 915 MHz, and 2.45 GHz — but do it around specific clinical questions.
+Measure blood-to-background contrast, useful depth, spatial resolution, and robustness across 434 MHz, 915 MHz, and 2.45 GHz, but do it around specific clinical questions.
 
 The objective should not be to prove that TA can image blood.
 
